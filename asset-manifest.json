@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Team9A/static/js/main.6b66a27b.js",
+    "main.js": "/Team9A/static/js/main.fada2043.js",
     "static/css/727.4c6ed87c.chunk.css": "/Team9A/static/css/727.4c6ed87c.chunk.css",
-    "static/js/727.4db9d9a5.chunk.js": "/Team9A/static/js/727.4db9d9a5.chunk.js",
+    "static/js/727.821b4f60.chunk.js": "/Team9A/static/js/727.821b4f60.chunk.js",
     "static/js/312.2da30aa2.chunk.js": "/Team9A/static/js/312.2da30aa2.chunk.js",
     "static/js/882.746e3d33.chunk.js": "/Team9A/static/js/882.746e3d33.chunk.js",
     "static/js/34.ed8b5e26.chunk.js": "/Team9A/static/js/34.ed8b5e26.chunk.js",
@@ -41,9 +41,9 @@
     "static/media/linkedin-brands.svg": "/Team9A/static/media/linkedin-brands.d7833fba7bdcf55514c4109c6c1eb7d0.svg",
     "static/media/facebook-square-brands.svg": "/Team9A/static/media/facebook-square-brands.38c6b4e5a1568d1aa181dd4ff5b08e05.svg",
     "static/media/arrow-up.svg": "/Team9A/static/media/arrow-up.65164624ca1539634ee30e63113402a1.svg",
-    "main.6b66a27b.js.map": "/Team9A/static/js/main.6b66a27b.js.map",
+    "main.fada2043.js.map": "/Team9A/static/js/main.fada2043.js.map",
     "727.4c6ed87c.chunk.css.map": "/Team9A/static/css/727.4c6ed87c.chunk.css.map",
-    "727.4db9d9a5.chunk.js.map": "/Team9A/static/js/727.4db9d9a5.chunk.js.map",
+    "727.821b4f60.chunk.js.map": "/Team9A/static/js/727.821b4f60.chunk.js.map",
     "312.2da30aa2.chunk.js.map": "/Team9A/static/js/312.2da30aa2.chunk.js.map",
     "882.746e3d33.chunk.js.map": "/Team9A/static/js/882.746e3d33.chunk.js.map",
     "34.ed8b5e26.chunk.js.map": "/Team9A/static/js/34.ed8b5e26.chunk.js.map",
@@ -52,6 +52,6 @@
     "991.92d186f9.chunk.js.map": "/Team9A/static/js/991.92d186f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.6b66a27b.js"
+    "static/js/main.fada2043.js"
   ]
 }
