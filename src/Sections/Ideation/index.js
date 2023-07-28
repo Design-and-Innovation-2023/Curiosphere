@@ -319,7 +319,7 @@ const Ideation = () => {
   return (
     <IdeationSection id="ideation">
       <Background ref={ref}>
-        <Title className="title">What We Do</Title>
+        <Title className="title">Ideation Process and Prototypes Built</Title>
         <Line id="line" />
         <Triangle id="triangle" />
       </Background>

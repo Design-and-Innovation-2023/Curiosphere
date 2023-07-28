@@ -7,6 +7,7 @@ import Ideation from "../Sections/Ideation/index";
 import Testimonials from "../Sections/Testimonials/index";
 import Contact from "../Sections/Contact/index";
 import Reflections from "../Sections/Reflections/index"
+import Constraints from "../Sections/Constraints/index";
 import Achievements from "../Sections/Achievements/index";
 import styled from "styled-components";
 
@@ -26,6 +27,7 @@ const Home = () => {
       <Ideation />
       <Reflections />
       <Achievements />
+      <Constraints />
       <Testimonials />
       <Contact />
     </Container>

@@ -124,12 +124,24 @@ const Row = styled.div`
     }
   }
 `;
+
+const AboutUs = styled.p`
+  color: white;
+  padding: 1rem; /* Adjust the padding value as needed */
+  text-align: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-size: 1.2rem;
+`;
+
 const Contact = () => {
   return (
     <ContactSection id="contact">
-      <Title>Get in touch</Title>
-      {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
-      <Icons>
+      <Title>About Us</Title>
+      <AboutUs>
+      We are team 9A, a group of Year 2 students studying Computing Science at the Singapore Institute of Technology (SIT), partnered with the University of Glasgow (UoG). Our team consists of Oliver, Kai Wen, Nazir, Amiir, Abdullah and Fathima. 
+      </AboutUs>
+      {/* <Icons>
         <a href="https://www.facebook.com/">
           {" "}
           <img src={Facebook} alt="Facebook" />
@@ -143,33 +155,7 @@ const Contact = () => {
         <a href="https://www.instagram.com/">
           <img src={Instagram} alt="Instagram" />
         </a>
-      </Icons>
-      <Form>
-        <Row>
-          <input name="name" type="text" placeholder="your name" />
-          <input
-            name="email"
-            type="email"
-            placeholder="enter working email id"
-          />
-        </Row>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="2"
-          placeholder="your message"
-        ></textarea>
-        <div style={{ margin: "0 auto" }}>
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-            }}
-          >
-            Submit
-          </button>
-        </div>
-      </Form>
+      </Icons> */}
     </ContactSection>
   );
 };

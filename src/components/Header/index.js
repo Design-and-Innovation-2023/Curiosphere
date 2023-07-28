@@ -250,8 +250,8 @@ const Header = () => {
         <a href="#achievements" onClick={(e) => scrollUp("achievements", e)}>
           Achievements
         </a>
-        <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
-          <Button>Contact Us</Button>
+        <a href="#constraints" onClick={(e) => scrollUp("constraints", e)}>
+          Constraints
         </a>
       </Nav>
       <HamburgerBtn clicked={click} onClick={() => setClick(!click)}>
@@ -273,8 +273,8 @@ const Header = () => {
         <a href="#achievements" onClick={(e) => scrollUp("achievements", e)}>
           Achievements
         </a>
-        <a href="#contact" onClick={(e) => handleClick("contact", e)}>
-          <Button>Contact Us</Button>
+        <a href="#constraints" onClick={(e) => scrollUp("constraints", e)}>
+          Constraints
         </a>
       </MobileMenu>
     </Headers>

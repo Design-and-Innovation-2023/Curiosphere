@@ -1,4 +1,8 @@
 import styled, { keyframes } from "styled-components";
+import wave from "../../assets/waves.svg";
+import rocket from "../../assets/rocket image.png";
+import human from "../../assets/human.svg";
+import hand from "../../assets/hand.svg";
 
 const move = keyframes`
 0% { transform: translateY(-5px)         }
@@ -6,13 +10,28 @@ const move = keyframes`
     100% { transform: translateY(-5px)         }
 `;
 
-const AchievementsSection = styled.section`
+const ConstraintsSection = styled.section`
   width: 100vw;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+`;
+const Waves = styled.img`
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -1rem;
+`;
+const Hand = styled.div`
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+
+  @media only Screen and (max-width: 40em) {
+    display: none;
+  }
 `;
 
 const Main = styled.div`
@@ -36,6 +55,14 @@ const Title = styled.h1`
   display: inline-block;
 `;
 
+const CurvedLine = styled.div`
+  width: 7rem;
+  height: 2rem;
+  border: solid 5px var(--purple);
+  border-color: var(--purple) transparent transparent transparent;
+  border-radius: 150%/60px 70px 0 0;
+`;
+
 const Content = styled.div`
   display: flex;
   justify-content: space-between;
@@ -45,19 +72,20 @@ const Content = styled.div`
   }
 `;
 
-const Achievements = () => {
+
+const Constraints = () => {
   return (
-    <AchievementsSection id="achievements">
+    <ConstraintsSection id="constraints">
       <Main>
         <div>
-          <Title>Achievements</Title>
+          <Title>Constraints</Title>
         </div>
         <Content>
 
         </Content>
       </Main>
-    </AchievementsSection>
+    </ConstraintsSection>
   );
 };
 
-export default Achievements;
+export default Constraints;
