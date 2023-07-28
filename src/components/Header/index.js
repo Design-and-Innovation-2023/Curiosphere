@@ -34,11 +34,11 @@ const Logo = styled.a`
 
 const Nav = styled.nav`
   width: 100%;
-  max-width: 40rem;
+  max-width: 55rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem; /* Add space between elements */
+  gap: 3rem; /* Add space between elements */
   @media only Screen and (max-width: 48em) {
     max-width: 100%; /* Reduce the width for smaller screen sizes */
     padding: 0 1.5rem;
