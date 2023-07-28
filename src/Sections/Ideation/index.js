@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Tube from "../../assets/3dtube.png";
+import QuestionsList from "../../assets/QuestionsList.PNG"
 import Cone from "../../assets/3dtriangle.png";
 import Capsule from "../../assets/3dcapsule.png";
 
@@ -326,17 +327,14 @@ const Ideation = () => {
 
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Design"
-          title={<h1>We build award winning Designs</h1>}
+          topic="Brainstorm"
+          title={<h1>18th July 2023</h1>}
           subText={
-            <h5>
-              We help clients to build great design to attract more customers
-            </h5>
+            <h3>
+              Came out with questions to ask project partners before meeting them to get a better idea of the overall project. 
+            </h3>
           }
         />
-        <OBJ>
-          <img src={Tube} alt="Tube Object" width="400" height="400" />
-        </OBJ>
         <SvgBlock svg="Design.svg" />
       </Content>
       <Content ref={addToRefs}>
