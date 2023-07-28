@@ -339,37 +339,98 @@ const Ideation = () => {
       </Content>
       <Content ref={addToRefs}>
         <TextBlock
-          topic="Develop"
-          title={<h1>We Develope high quality Web & App</h1>}
+          topic="Meeting"
+          title={<h1>19th July 2023</h1>}
           subText={
-            <h5>
-              We build appropriate solution to develope your website & app with
-              best tools available
-            </h5>
+            <h4>
+              Face to face meeting with project partners Professor Jeremy Singer and Lewis. Understood the requirements and started forming ideas to design activities for the students. Base idea was formed which is the concept of using Multiple Choice Questions (MCQs) to test the student’s knowledge in certain computing science topics.
+            </h4>
           }
         />
-        <OBJ>
+        {/* <OBJ>
           <img src={Cone} alt="Cone Object" width="400" height="400" />
-        </OBJ>
+        </OBJ> */}
         <SvgBlock svg="Develope.svg" />
       </Content>
-      <Content>
+
+      <Content ref={addToRefs}>
         <TextBlock
-          topic="Support"
-          title={<h1>We provide support for your digital presence</h1>}
+          topic="Prototype"
+          title={<h1>20th July 2023</h1>}
           subText={
-            <h5>
-              Once your system is online, we will stay on hand to help you use
-              it and provide technical support and maintenance <br /> your
-              business
-            </h5>
+            <h4>
+              Started developing a prototype consisting of a sample mcq question and 4 options.
+            </h4>
           }
         />
-        <OBJ>
+        {/* <OBJ>
           <img src={Capsule} alt="Capsule Object" width="400" height="400" />
-        </OBJ>
+        </OBJ> */}
         <SvgBlock svg="Support.svg" />
       </Content>
+
+      <Content ref={addToRefs}>
+        <TextBlock
+          topic="Prototype"
+          title={<h1>21st July 2023</h1>}
+          subText={
+            <h4>
+               Started learning how to program the Curio robot and managed to use code to control the robot’s movements.
+            </h4>
+          }
+        />
+        <SvgBlock svg="Support.svg" />
+      </Content>
+
+      <Content ref={addToRefs}>
+        <TextBlock
+          topic="Prototype"
+          title={<h1>24th July 2023</h1>}
+          subText={
+            <h4>
+              Developed more prototypes (a landing page for students to log in, and a page to select which quiz to take part in)
+
+              Came out of ways to encourage teamwork between the students. Thus, we came up with a maze idea. Multiple students can be involved in solving the questions and figuring out which path the robot should take through the maze, allowing for more collaborative learning.
+              (Can insert screenshot of sample maze)
+
+              Discussions can be held after the maze is complete for reviewing purposes and ensuring that the students understand the concepts being taught.
+            </h4>
+          }
+        />
+        <SvgBlock svg="Support.svg" />
+      </Content>
+
+      <Content ref={addToRefs}>
+        <TextBlock
+          topic="Prototype"
+          title={<h1>25th July 2023</h1>}
+          subText={
+            <h3>
+              Started solidifying ideas to discuss with Lewis and then to ultimately select 1 for the final solution. 
+
+              2 ideas to select from: Race concept (refer to 210723) and a battle concept.
+              (Insert pics and vids to explain the 2 ideas)
+            </h3>
+          }
+        />
+        <SvgBlock svg="Support.svg" />
+      </Content>
+
+      <Content ref={addToRefs}>
+        <TextBlock
+          topic="Meeting"
+          title={<h1>26th July 2023</h1>}
+          subText={
+            <h3>
+             Face to face meeting with Lewis to discuss the 2 ideas. Battle idea preferred due to space constraints. Took into account Lewis’s feedback to improve the design:
+             - test the students based on content from multiple weeks of their lesson schedule (so the quiz will contain multiple topics instead of only 1)
+             - consider placing obstacles in the playing area to incorporate left and right movements of the robot
+            </h3>
+          }
+        />
+        <SvgBlock svg="Support.svg" />
+      </Content>
+      
     </IdeationSection>
   );
 };
