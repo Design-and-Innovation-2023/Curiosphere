@@ -9,6 +9,7 @@ import Contact from "../Sections/Contact/index";
 import Reflections from "../Sections/Reflections/index"
 import Constraints from "../Sections/Constraints/index";
 import Achievements from "../Sections/Achievements/index";
+import Improvements from "../Sections/Improvements/index";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -28,6 +29,7 @@ const Home = () => {
       <Reflections />
       <Achievements />
       <Constraints />
+      <Improvements />
       <Testimonials />
       <Contact />
     </Container>

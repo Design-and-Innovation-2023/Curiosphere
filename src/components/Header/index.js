@@ -253,6 +253,9 @@ const Header = () => {
         <a href="#constraints" onClick={(e) => scrollUp("constraints", e)}>
           Constraints
         </a>
+        <a href="#improvements" onClick={(e) => scrollUp("improvements", e)}>
+          Improvements
+        </a>
       </Nav>
       <HamburgerBtn clicked={click} onClick={() => setClick(!click)}>
         <span></span>
