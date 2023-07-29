@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/Team9A/static/js/main.fada2043.js",
+    "main.js": "/Team9A/static/js/main.b0117156.js",
     "static/css/727.4c6ed87c.chunk.css": "/Team9A/static/css/727.4c6ed87c.chunk.css",
-    "static/js/727.821b4f60.chunk.js": "/Team9A/static/js/727.821b4f60.chunk.js",
-    "static/js/312.2da30aa2.chunk.js": "/Team9A/static/js/312.2da30aa2.chunk.js",
+    "static/js/727.c57f0809.chunk.js": "/Team9A/static/js/727.c57f0809.chunk.js",
+    "static/js/959.56c5d4de.chunk.js": "/Team9A/static/js/959.56c5d4de.chunk.js",
     "static/js/882.746e3d33.chunk.js": "/Team9A/static/js/882.746e3d33.chunk.js",
     "static/js/34.ed8b5e26.chunk.js": "/Team9A/static/js/34.ed8b5e26.chunk.js",
     "static/js/258.f4bd938c.chunk.js": "/Team9A/static/js/258.f4bd938c.chunk.js",
@@ -13,6 +13,7 @@
     "static/media/QuestionsList.PNG": "/Team9A/static/media/QuestionsList.ac2e3370f2b306d8b7c4.PNG",
     "static/media/Website Image-2.png": "/Team9A/static/media/Website Image-2.4ace1dd160e85929c810.png",
     "static/media/Website Image-1.png": "/Team9A/static/media/Website Image-1.5d73327e341785cb3366.png",
+    "static/media/Prototype200723.png": "/Team9A/static/media/Prototype200723.2c6864a85955fb21ad48.png",
     "static/media/avatar-1.jpg": "/Team9A/static/media/avatar-1.997fa945f79c3df41e5c.jpg",
     "static/media/Website Image-3.png": "/Team9A/static/media/Website Image-3.9a5f172d8ed78c04c111.png",
     "static/media/avatar-4.jpg": "/Team9A/static/media/avatar-4.8bc41f8a581563becad3.jpg",
@@ -22,11 +23,16 @@
     "static/media/avatar-2.jpg": "/Team9A/static/media/avatar-2.c9d9b0ca8574e9bb2ba0.jpg",
     "static/media/3dtriangle.png": "/Team9A/static/media/3dtriangle.f978961289bfe60ba064.png",
     "static/media/3dcapsule.png": "/Team9A/static/media/3dcapsule.b06cad0fcb2660765ed1.png",
+    "static/media/curiologo.png": "/Team9A/static/media/curiologo.d83f05a5e60c6246b62d.png",
     "static/media/Develope.svg": "/Team9A/static/media/Develope.48a8617e6ae6d433ad24.svg",
+    "static/media/Prototype240723_2.png": "/Team9A/static/media/Prototype240723_2.e36a21e9593e3f17af10.png",
+    "static/media/Prototype240723_1.png": "/Team9A/static/media/Prototype240723_1.32dd27657ef1860b01eb.png",
     "static/media/mobile.svg": "/Team9A/static/media/mobile.1215c5b01c679c0c90f9e94b1c269935.svg",
-    "static/media/logo.svg": "/Team9A/static/media/logo.77646688f32f3fd707913e06fee83eaa.svg",
+    "static/media/logo.svg": "/Team9A/static/media/logo.77646688f32f3fd70791.svg",
     "static/media/Design.svg": "/Team9A/static/media/Design.ff903a950996991bf19b.svg",
     "static/media/human.svg": "/Team9A/static/media/human.7430a07a5e49fbda99d4b38ea3d0c97a.svg",
+    "static/media/BattleDiagram.PNG": "/Team9A/static/media/BattleDiagram.8a9e686e33eeca92a210.PNG",
+    "static/media/RaceDiagram.PNG": "/Team9A/static/media/RaceDiagram.8444c83c43ae28897575.PNG",
     "static/media/Support.svg": "/Team9A/static/media/Support.c20442deda3b566122ae.svg",
     "static/media/slick.svg": "/Team9A/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Team9A/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -41,10 +47,10 @@
     "static/media/linkedin-brands.svg": "/Team9A/static/media/linkedin-brands.d7833fba7bdcf55514c4109c6c1eb7d0.svg",
     "static/media/facebook-square-brands.svg": "/Team9A/static/media/facebook-square-brands.38c6b4e5a1568d1aa181dd4ff5b08e05.svg",
     "static/media/arrow-up.svg": "/Team9A/static/media/arrow-up.65164624ca1539634ee30e63113402a1.svg",
-    "main.fada2043.js.map": "/Team9A/static/js/main.fada2043.js.map",
+    "main.b0117156.js.map": "/Team9A/static/js/main.b0117156.js.map",
     "727.4c6ed87c.chunk.css.map": "/Team9A/static/css/727.4c6ed87c.chunk.css.map",
-    "727.821b4f60.chunk.js.map": "/Team9A/static/js/727.821b4f60.chunk.js.map",
-    "312.2da30aa2.chunk.js.map": "/Team9A/static/js/312.2da30aa2.chunk.js.map",
+    "727.c57f0809.chunk.js.map": "/Team9A/static/js/727.c57f0809.chunk.js.map",
+    "959.56c5d4de.chunk.js.map": "/Team9A/static/js/959.56c5d4de.chunk.js.map",
     "882.746e3d33.chunk.js.map": "/Team9A/static/js/882.746e3d33.chunk.js.map",
     "34.ed8b5e26.chunk.js.map": "/Team9A/static/js/34.ed8b5e26.chunk.js.map",
     "258.f4bd938c.chunk.js.map": "/Team9A/static/js/258.f4bd938c.chunk.js.map",
@@ -52,6 +58,6 @@
     "991.92d186f9.chunk.js.map": "/Team9A/static/js/991.92d186f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fada2043.js"
+    "static/js/main.b0117156.js"
   ]
 }
