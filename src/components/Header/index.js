@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
-import logo from "../../assets/logo.svg";
+import curiologo from "../../assets/curiologo.png"
 
 const Headers = styled.header`
   display: flex;
@@ -229,7 +229,7 @@ const Header = () => {
   return (
     <Headers ref={ref}>
       <Logo>
-        {/* <img src={logo} alt="OIP Team 9A" /> */}
+        <img src={curiologo} alt="Curio Logo" />
         <h3>OIP</h3>
         <h3>Team</h3>
         <h3>9A</h3>

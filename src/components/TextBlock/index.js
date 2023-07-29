@@ -6,7 +6,7 @@ const Lb = styled.div`
   flex-direction: column;
   align-items: flex-start;
 
-  width: 50%;
+  width: 40%;
   line-height: 1.5;
   color: var(--white);
 
@@ -55,7 +55,7 @@ const Title = styled.div`
 
 const SubText = styled.div`
   font-size: calc(0.5rem + 0.5vw);
-  color: var(--nav2);
+  color: white;
   @media only Screen and (max-width: 48em) {
     font-size: calc(0.5rem + 1vw);
   }

@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Tube from "../../assets/3dtube.png";
 import QuestionsList from "../../assets/QuestionsList.PNG"
+import Prototype200723 from "../../assets/Prototype200723.png"
 import Cone from "../../assets/3dtriangle.png";
 import Capsule from "../../assets/3dcapsule.png";
 
@@ -52,13 +53,13 @@ const Title = styled.h1`
   &::before {
     content: "";
     height: 1px;
-    width: 50%;
+    width: 90%;
     position: absolute;
     left: 50%;
     bottom: 0;
     transform: translate(-50%, 0.5rem);
     /* or 100px */
-    border-bottom: 2px solid var(--pink);
+    border-bottom: 2px solid;
   }
 `;
 
@@ -312,11 +313,13 @@ const Ideation = () => {
     });
   }, []);
 
+  // scrolling animation
   const addToRefs = (el) => {
     if (el && !revealRefs.current.includes(el)) {
       revealRefs.current.push(el);
     }
   };
+  
   return (
     <IdeationSection id="ideation">
       <Background ref={ref}>
@@ -325,82 +328,92 @@ const Ideation = () => {
         <Triangle id="triangle" />
       </Background>
 
-      <Content ref={addToRefs}>
+      <Content>
         <TextBlock
           topic="Brainstorm"
           title={<h1>18th July 2023</h1>}
           subText={
             <h3>
-              Came out with questions to ask project partners before meeting them to get a better idea of the overall project. 
+              Came out with questions to ask project partners before meeting them to get a better idea of the overall project and form plans to move forward. 
             </h3>
           }
         />
-        <SvgBlock svg="Design.svg" />
+        <img src={QuestionsList} alt = "Initial Questions" style={{ width: '70%' }} />
       </Content>
-      <Content ref={addToRefs}>
+
+      <Content>
         <TextBlock
           topic="Meeting"
           title={<h1>19th July 2023</h1>}
           subText={
-            <h4>
-              Face to face meeting with project partners Professor Jeremy Singer and Lewis. Understood the requirements and started forming ideas to design activities for the students. Base idea was formed which is the concept of using Multiple Choice Questions (MCQs) to test the student’s knowledge in certain computing science topics.
-            </h4>
+            <h3>
+              Face to face meeting with project partners Professor Jeremy Singer and Lewis. Understood the requirements and started forming ideas to design activities for the students. <br /> Base idea was formed which is the concept of using Multiple Choice Questions (MCQs) to test the student’s knowledge in certain computing science topics.
+            </h3>
           }
         />
         {/* <OBJ>
           <img src={Cone} alt="Cone Object" width="400" height="400" />
         </OBJ> */}
-        <SvgBlock svg="Develope.svg" />
       </Content>
 
-      <Content ref={addToRefs}>
+      <Content>
         <TextBlock
           topic="Prototype"
           title={<h1>20th July 2023</h1>}
           subText={
-            <h4>
+            <h3>
               Started developing a prototype consisting of a sample mcq question and 4 options.
-            </h4>
+            </h3>
           }
         />
+         <img src={Prototype200723} alt = "Prototype 200723" style={{ width: '50%' }} />
         {/* <OBJ>
           <img src={Capsule} alt="Capsule Object" width="400" height="400" />
         </OBJ> */}
-        <SvgBlock svg="Support.svg" />
       </Content>
 
-      <Content ref={addToRefs}>
+      <Content>
         <TextBlock
           topic="Prototype"
           title={<h1>21st July 2023</h1>}
           subText={
-            <h4>
-               Started learning how to program the Curio robot and managed to use code to control the robot’s movements.
-            </h4>
+            <h3>
+               Started learning how to program the Curio robot and managed to use code to control the robot’s movements. <br />
+               Developed ideas further by coming up with a race concept for the students to take part in with the Curio robot. 
+            </h3>
           }
         />
-        <SvgBlock svg="Support.svg" />
+        <iframe
+          width="650"
+          height="400"
+          src="https://youtube.com/embed/AcIjbuPOjyk"
+          title="Initial Prototype"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
       </Content>
 
-      <Content ref={addToRefs}>
+      <Content>
         <TextBlock
           topic="Prototype"
           title={<h1>24th July 2023</h1>}
           subText={
-            <h4>
+            <h3>
               Developed more prototypes (a landing page for students to log in, and a page to select which quiz to take part in)
 
               Came out of ways to encourage teamwork between the students. Thus, we came up with a maze idea. Multiple students can be involved in solving the questions and figuring out which path the robot should take through the maze, allowing for more collaborative learning.
               (Can insert screenshot of sample maze)
 
               Discussions can be held after the maze is complete for reviewing purposes and ensuring that the students understand the concepts being taught.
-            </h4>
+            </h3>
           }
         />
+
         <SvgBlock svg="Support.svg" />
       </Content>
 
-      <Content ref={addToRefs}>
+      <Content>
         <TextBlock
           topic="Prototype"
           title={<h1>25th July 2023</h1>}
@@ -416,15 +429,41 @@ const Ideation = () => {
         <SvgBlock svg="Support.svg" />
       </Content>
 
-      <Content ref={addToRefs}>
+      <Content>
         <TextBlock
           topic="Meeting"
           title={<h1>26th July 2023</h1>}
           subText={
             <h3>
-             Face to face meeting with Lewis to discuss the 2 ideas. Battle idea preferred due to space constraints. Took into account Lewis’s feedback to improve the design:
-             - test the students based on content from multiple weeks of their lesson schedule (so the quiz will contain multiple topics instead of only 1)
+             Face to face meeting with Lewis to discuss the 2 ideas. Battle idea preferred due to space constraints. Took into account Lewis’s feedback to improve the design: <br />
+             - test the students based on content from multiple weeks of their lesson schedule (so the quiz will contain multiple topics instead of only 1) <br />
              - consider placing obstacles in the playing area to incorporate left and right movements of the robot
+            </h3>
+          }
+        />
+        <SvgBlock svg="Support.svg" />
+      </Content>
+
+      <Content>
+        <TextBlock
+          topic="Development"
+          title={<h1>27th July 2023</h1>}
+          subText={
+            <h3>
+               Continued development focusing on the battle idea.
+            </h3>
+          }
+        />
+        <SvgBlock svg="Support.svg" />
+      </Content>
+
+      <Content>
+        <TextBlock
+          topic="Testing"
+          title={<h1>28th July 2023</h1>}
+          subText={
+            <h3>
+              Tested out prototype by acting as students taking the quiz and participating in the battle activity. (Insert video of battle idea demo)
             </h3>
           }
         />

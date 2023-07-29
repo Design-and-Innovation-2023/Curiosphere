@@ -24,15 +24,15 @@ const Waves = styled.img`
   position: absolute;
   top: -1rem;
 `;
-const Hand = styled.div`
-  position: absolute;
-  bottom: -1rem;
-  right: 0;
+// const Hand = styled.div`
+//   position: absolute;
+//   bottom: -1rem;
+//   right: 0;
 
-  @media only Screen and (max-width: 40em) {
-    display: none;
-  }
-`;
+//   @media only Screen and (max-width: 40em) {
+//     display: none;
+//   }
+// `;
 
 const Main = styled.div`
   margin: 0 15rem;
@@ -121,9 +121,6 @@ const ProblemStatement = () => {
   return (
     <ProblemStatementSection id="problem">
       <Waves src={wave} alt="" />
-      <Hand>
-        <img src={hand} alt="" />
-      </Hand>
       <Main>
         <div>
           <br />
