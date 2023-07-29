@@ -6,7 +6,7 @@ const Lb = styled.div`
   flex-direction: column;
   align-items: flex-start;
 
-  width: 40%;
+  width: 60%;
   line-height: 1.5;
   color: var(--white);
 

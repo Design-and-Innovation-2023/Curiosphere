@@ -6,6 +6,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Tube from "../../assets/3dtube.png";
 import QuestionsList from "../../assets/QuestionsList.PNG"
 import Prototype200723 from "../../assets/Prototype200723.png"
+import Prototype240723_1 from "../../assets/Prototype240723_1.png"
+import Prototype240723_2 from "../../assets/Prototype240723_2.png"
+import RaceDiagram from "../../assets/RaceDiagram.PNG"
+import BattleDiagram from "../../assets/BattleDiagram.PNG"
 import Cone from "../../assets/3dtriangle.png";
 import Capsule from "../../assets/3dcapsule.png";
 
@@ -328,7 +332,7 @@ const Ideation = () => {
         <Triangle id="triangle" />
       </Background>
 
-      <Content>
+      <Content ref={addToRefs}> 
         <TextBlock
           topic="Brainstorm"
           title={<h1>18th July 2023</h1>}
@@ -378,7 +382,7 @@ const Ideation = () => {
           title={<h1>21st July 2023</h1>}
           subText={
             <h3>
-               Started learning how to program the Curio robot and managed to use code to control the robot’s movements. <br />
+               Started learning how to program the Curio robot and managed to use code to control the robot’s movements. <br /> <br />
                Developed ideas further by coming up with a race concept for the students to take part in with the Curio robot. 
             </h3>
           }
@@ -404,13 +408,16 @@ const Ideation = () => {
 
               Came out of ways to encourage teamwork between the students. Thus, we came up with a maze idea. Multiple students can be involved in solving the questions and figuring out which path the robot should take through the maze, allowing for more collaborative learning.
               (Can insert screenshot of sample maze)
-
+              <br />
+              <br />
               Discussions can be held after the maze is complete for reviewing purposes and ensuring that the students understand the concepts being taught.
             </h3>
           }
         />
-
-        <SvgBlock svg="Support.svg" />
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <img src={Prototype240723_1} alt="Prototype 240723_1" style={{ width: '70%',  marginBottom: '15px'  }} />
+          <img src={Prototype240723_2} alt="Prototype 240723_2" style={{ width: '70%' }} />
+        </div>
       </Content>
 
       <Content>
@@ -421,12 +428,16 @@ const Ideation = () => {
             <h3>
               Started solidifying ideas to discuss with Lewis and then to ultimately select 1 for the final solution. 
 
-              2 ideas to select from: Race concept (refer to 210723) and a battle concept.
-              (Insert pics and vids to explain the 2 ideas)
+              2 ideas to select from: 
+              <br />
+              Race concept and a battle concept.
+              <br />
+              <br />
+              <img src={RaceDiagram} alt="Race Diagram" style={{ width: '70%',  marginBottom: '15px'  }} />
+              <img src={BattleDiagram} alt="Battle Diagram" style={{ width: '70%' }} />
             </h3>
           }
         />
-        <SvgBlock svg="Support.svg" />
       </Content>
 
       <Content>

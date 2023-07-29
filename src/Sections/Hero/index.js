@@ -7,6 +7,7 @@ import purpleBlob from "../../assets/blob purple.png";
 import whiteBlob from "../../assets/blob white.png";
 import arrow from "../../assets/Arrow Right.svg";
 import Mobile from "../../assets/mobile.svg";
+import CurioLogo from "../../assets/curiologo.png"
 
 const move = keyframes`
 0% { transform: translateY(-5px)  }
@@ -175,7 +176,7 @@ const CTA = styled.button`
 const HeroSection = () => {
   return (
     <HomeSection id="home">
-      <Blobs>
+      {/* <Blobs>
         <PinkBlob>
           <img src={pinkBlob} alt="" width="400" height="400" />{" "}
         </PinkBlob>
@@ -185,27 +186,27 @@ const HeroSection = () => {
         <PurpleBlob>
           <img src={purpleBlob} alt="" width="400" height="400" />
         </PurpleBlob>
-      </Blobs>
+      </Blobs> */}
 
       <MainContent id="home">
         <Lb id="leftBlock">
-          <Topic>
+          {/* <Topic>
             <Circle />
             <span>We Build Web</span>
-          </Topic>
-          <Title>Transforming your digital presence</Title>
+          </Topic> */}
+          <Title>Designing computing science activities using Curio platform</Title>
           <SubText>
-            we help fast growing companies build award winning websites
+            Placeholder
           </SubText>
-          <CTA>
+          {/* <CTA>
             Get in touch &nbsp;
             <img src={arrow} alt="cta" width="100" height="100" />
-          </CTA>
+          </CTA> */}
         </Lb>
 
         <MobileSvg
-          src={Mobile}
-          alt="Mobile Svg"
+          src={CurioLogo}
+          alt="Curio Logo"
           srcset=""
           width="400"
           height="400"
