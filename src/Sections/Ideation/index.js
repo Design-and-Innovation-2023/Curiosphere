@@ -64,7 +64,7 @@ const Title = styled.h1`
     bottom: 0;
     transform: translate(-50%, 0.5rem);
     /* or 100px */
-    border-bottom: 2px solid;
+    border-bottom: 2px solid var(--pink);
   }
 `;
 
@@ -427,19 +427,17 @@ const Ideation = () => {
           title={<h1>25th July 2023</h1>}
           subText={
             <h3>
-              Started solidifying ideas to discuss with Lewis and then to ultimately select 1 for the final solution. 
-
-              2 ideas to select from: 
+              Started solidifying ideas to discuss with Lewis and then to ultimately select 1 for the final solution.
               <br />
               <br />
-              <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <div style={{ textAlign: 'center', marginRight: '50px', width:'50%' }}>
+              <div style={{ display: 'flex'}}>
+              <div style={{ textAlign: 'center', marginRight: '50px', width:'100%' }}>
                 <p style={{fontSize: '70%'}}>Race concept: Whenever student gets an answer correct, robot moves forward. Both robots will race towards the finishing line.</p>
                 <img src={RaceDiagram} alt="Race Diagram" style={{ width: '100%', marginBottom: '15px' }} />
               </div>
-              <div style={{ textAlign: 'center', width:'50%' }}>
+              <div style={{ textAlign: 'center', width:'100%' }}>
                 <p style={{fontSize: '70%'}}>Battle concept: Robot also moves forward when student gets correct answer, but this time the robots will be moving in opposite directions. The team which robot passes the middle line first or moves further from the starting position is the victor. </p>
-                <img src={BattleDiagram} alt="Battle Diagram" style={{ width: '150%' }} />
+                <img src={BattleDiagram} alt="Battle Diagram" style={{ width: '100%' }} />
               </div>
             </div>
             </h3>
@@ -453,7 +451,7 @@ const Ideation = () => {
           title={<h1>26th July 2023</h1>}
           subText={
             <h3>
-             Face to face meeting with Lewis to discuss the 2 ideas. Battle idea preferred due to space constraints. Took into account Lewis’s feedback to improve the design: <br />
+             Face to face meeting with Lewis to discuss the 2 ideas. Battle idea preferred due to space constraints. Took into account Lewis’s feedback to improve the design. <br /><br />
              - test the students based on content from multiple weeks of their lesson schedule (so the quiz will contain multiple topics instead of only 1) <br />
              - consider placing obstacles in the playing area to incorporate left and right movements of the robot
             </h3>

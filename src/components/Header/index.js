@@ -230,7 +230,6 @@ const Header = () => {
     <Headers ref={ref}>
       <Logo>
         <img src={curiologo} alt="Curio Logo" />
-        <h3>OIP</h3>
         <h3>Team</h3>
         <h3>9A</h3>
       </Logo>
