@@ -10,6 +10,7 @@ import Prototype240723_1 from "../../assets/Prototype240723_1.png"
 import Prototype240723_2 from "../../assets/Prototype240723_2.png"
 import RaceDiagram from "../../assets/RaceDiagram.PNG"
 import BattleDiagram from "../../assets/BattleDiagram.PNG"
+import BattleTest from "../../assets/BattleTest.png"
 import Cone from "../../assets/3dtriangle.png";
 import Capsule from "../../assets/3dcapsule.png";
 
@@ -430,11 +431,17 @@ const Ideation = () => {
 
               2 ideas to select from: 
               <br />
-              Race concept and a battle concept.
               <br />
-              <br />
-              <img src={RaceDiagram} alt="Race Diagram" style={{ width: '70%',  marginBottom: '15px'  }} />
-              <img src={BattleDiagram} alt="Battle Diagram" style={{ width: '70%' }} />
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <div style={{ textAlign: 'center', marginRight: '50px', width:'50%' }}>
+                <p style={{fontSize: '70%'}}>Race concept: Whenever student gets an answer correct, robot moves forward. Both robots will race towards the finishing line.</p>
+                <img src={RaceDiagram} alt="Race Diagram" style={{ width: '100%', marginBottom: '15px' }} />
+              </div>
+              <div style={{ textAlign: 'center', width:'50%' }}>
+                <p style={{fontSize: '70%'}}>Battle concept: Robot also moves forward when student gets correct answer, but this time the robots will be moving in opposite directions. The team which robot passes the middle line first or moves further from the starting position is the victor. </p>
+                <img src={BattleDiagram} alt="Battle Diagram" style={{ width: '150%' }} />
+              </div>
+            </div>
             </h3>
           }
         />
@@ -452,7 +459,6 @@ const Ideation = () => {
             </h3>
           }
         />
-        <SvgBlock svg="Support.svg" />
       </Content>
 
       <Content>
@@ -465,20 +471,19 @@ const Ideation = () => {
             </h3>
           }
         />
-        <SvgBlock svg="Support.svg" />
       </Content>
 
       <Content>
         <TextBlock
-          topic="Testing"
+          topic="Development and Testing"
           title={<h1>28th July 2023</h1>}
           subText={
             <h3>
-              Tested out prototype by acting as students taking the quiz and participating in the battle activity. (Insert video of battle idea demo)
+              Tested out prototype by acting as students taking the quiz and participating in the battle activity.
             </h3>
           }
         />
-        <SvgBlock svg="Support.svg" />
+        <img src={BattleTest} alt = "Battle Test" style={{ width: '50%' }} />
       </Content>
       
     </IdeationSection>
