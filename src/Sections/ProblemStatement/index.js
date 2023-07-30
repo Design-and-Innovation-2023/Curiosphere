@@ -121,7 +121,7 @@ const ProblemStatementText = styled.div`
 const ProblemStatement = () => {
   return (
     <ProblemStatementSection id="problem">
-      <Waves src={wave} alt="" />
+      {/* <Waves src={wave} alt="" /> */}
       <Main>
         <div>
           <br />

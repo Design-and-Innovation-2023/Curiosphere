@@ -15,10 +15,14 @@ const move = keyframes`
     100% { transform: translateY(-5px) }
 `;
 
+const Wrapper = styled.div`
+  margin-bottom: 150px;
+`;
+
 const HomeSection = styled.section`
   width: 100vw;
   height: 45vw;
-  background-color: #0a0b10;
+  background-color: white;
   display: flex;
   justify-content: center;
   position: relative;
@@ -139,6 +143,7 @@ const Title = styled.h1`
   font-size: calc(2rem + 1vw);
   line-height: 1.2;
   padding: 0.5rem 0;
+  color: black;
 `;
 
 const SubText = styled.h5`
@@ -194,10 +199,12 @@ const HeroSection = () => {
             <Circle />
             <span>We Build Web</span>
           </Topic> */}
-          <Title>Designing computing science activities using Curio platform</Title>
-          <SubText>
-            Placeholder
-          </SubText>
+          <Wrapper>
+            <Title>Designing computing science activities using Curio platform</Title>
+              <SubText>
+                Overseas Immersion Programme (OIP) July- Aug 2023
+              </SubText>
+          </Wrapper>
           {/* <CTA>
             Get in touch &nbsp;
             <img src={arrow} alt="cta" width="100" height="100" />

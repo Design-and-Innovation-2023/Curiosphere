@@ -52,7 +52,9 @@ const Main = styled.div`
 
 const Title = styled.h1`
   font-size: 2rem;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 `;
 
 const CurvedLine = styled.div`
@@ -72,6 +74,12 @@ const Content = styled.div`
   }
 `;
 
+const Text = styled.h4`
+  font-size: calc(0.5rem + 1vw);
+  line-height: 1.5;
+  color: var(--nav2);
+  margin-bottom: 10px;
+`;
 
 const Reflections = () => {
   return (
@@ -81,7 +89,10 @@ const Reflections = () => {
           <Title>Reflections</Title>
         </div>
         <Content>
-
+          <Text>
+            Github: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github page</a> <br />
+            Team dailies: <a href="https://oip2023.discourse.group/t/team-9a-dailies">OIP 2023 Team 9A Dailies</a> <br /> <br />
+          </Text>
         </Content>
       </Main>
     </ReflectionsSection>

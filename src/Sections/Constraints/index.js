@@ -53,7 +53,9 @@ const Main = styled.div`
 
 const Title = styled.h1`
   font-size: 2rem;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 `;
 
 const CurvedLine = styled.div`
@@ -101,6 +103,7 @@ const Text = styled.h4`
   line-height: 1.5;
   color: var(--nav2);
 `;
+
 const Circle = styled.span`
   display: inline-block;
   width: 1rem;
@@ -110,7 +113,8 @@ const Circle = styled.span`
   margin-right: 0.5rem;
   margin-top: 1rem;
 `;
-const ProblemStatementText = styled.div`
+
+const ConstraintsText = styled.div`
   width: 50%;
   position: relative;
   @media only Screen and (max-width: 40em) {
@@ -118,9 +122,15 @@ const ProblemStatementText = styled.div`
   }
 `;
 
+const CircleDiv = styled.div`
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+`;
+
 const ProblemStatement = () => {
   return (
-    <ProblemStatementSection id="problem">
+    <ProblemStatementSection id="constraints">
       <Main>
         <div>
           <br />
@@ -128,11 +138,7 @@ const ProblemStatement = () => {
           <Title>Constraints and Challenges</Title>
         </div>
         <Content>
-          <ChallengesIcon>
-            <img src={challenges} alt="" />
-          </ChallengesIcon>
-          <ProblemStatementText>
-
+          <ConstraintsText>
             <Text>
               Given the chance to work with and understand the Curio platform: which is something new for us, so it took some time to familiarize ourselves with it
             </Text>
@@ -144,14 +150,18 @@ const ProblemStatement = () => {
             <Text>
               Coming up with interesting activities to ensure that students with both prior or no prior experience in computing science will be engaged
             </Text>
-            <div>
-              <Circle style={{ backgroundColor: "var(--purple)" }} />
-              <Circle style={{ backgroundColor: "var(--pink)" }} />
-              <Circle style={{ backgroundColor: "var(--black)" }} />
-            </div>
-          </ProblemStatementText>
+          </ConstraintsText>
+          <ChallengesIcon>
+            <img src={challenges} alt="" />
+          </ChallengesIcon>
         </Content>
       </Main>
+      
+      <CircleDiv>
+          <Circle style={{ backgroundColor: "var(--purple)" }} />
+          <Circle style={{ backgroundColor: "var(--pink)" }} />
+          <Circle style={{ backgroundColor: "var(--black)" }} />
+      </CircleDiv>
     </ProblemStatementSection>
   );
 };
