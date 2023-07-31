@@ -62,6 +62,7 @@ const AchievementIcon = styled.div`
   width: 130%;
   padding-bottom: 5rem;
   margin-right: 100px;
+  margin-bottom: 380px;
   animation: ${move} 2.5s ease infinite;
   @media only Screen and (max-width: 40em) {
     width: 50vw;

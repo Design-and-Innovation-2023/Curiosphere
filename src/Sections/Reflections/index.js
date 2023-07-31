@@ -98,7 +98,11 @@ const Reflections = () => {
         </div>
         <Content>
           <Text>
-            Test
+            Throughout the 3 weeks spent in University of Glasgow as part of the OIP, we have gotten the chance to meet and work with many different people in a new environment. We are also glad to be part of the process of creating a solution which we hope will be passed on to other groups of designers and expand into something bigger, even after we leave Glasgow. <br /> <br />
+
+            We've learned a lot of lessons along the way. We realised that the initial step was to build a strong foundation as a team, thus we needed internal agreements or contracts which define the roles that each member should play. Before meeting the project partners we had to align our views and mental models regarding the project so that we can ask useful questions and gain valuable insights during meetings. <br /> <br />
+            
+            During prototyping, we get to experiment with different ways to approach the challenge, and also changing our perspectives from us the developers to the end-users when testing the protoypes. This allowed us to fine-tune our designs and improve them based on external feedback and our own takeaways during the whole prototyping process. Some of us had the chance to sharpen our brainstorming skills while others learned the importance of seeing the project from the client's view to form a suitable solution. <br /> <br /> 
           </Text>
           <h4 style={{marginBottom:'15px'}}>Relevant Links</h4>
           <SubText>

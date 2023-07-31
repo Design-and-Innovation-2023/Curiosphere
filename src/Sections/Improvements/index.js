@@ -52,7 +52,9 @@ const Main = styled.div`
 
 const Title = styled.h1`
   font-size: 2rem;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 `;
 
 const CurvedLine = styled.div`
@@ -65,11 +67,19 @@ const CurvedLine = styled.div`
 
 const Content = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   @media only Screen and (max-width: 40em) {
     flex-direction: column;
   }
+`;
+
+const Text = styled.h4`
+  font-size: calc(0.5rem + 1vw);
+  line-height: 1.5;
+  color: var(--nav2);
+  margin-bottom: 10px;
 `;
 
 
@@ -81,7 +91,10 @@ const Improvements = () => {
           <Title>Improvements and Future Work</Title>
         </div>
         <Content>
-
+          <Text>
+          Implementation of maze-like system where left and right movements of the robot will be incorporated. <br /> <br />
+          Implementation of communication between different robots, so more functionalities can be introduced into the game such as attacking and defending and this will affect the health points of the robots.
+          </Text>
         </Content>
       </Main>
     </ImprovementsSection>
