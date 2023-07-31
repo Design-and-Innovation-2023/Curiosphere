@@ -67,6 +67,7 @@ const CurvedLine = styled.div`
 
 const Content = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   @media only Screen and (max-width: 40em) {
@@ -81,6 +82,13 @@ const Text = styled.h4`
   margin-bottom: 10px;
 `;
 
+const SubText = styled.h5`
+  font-size: 1.1rem;
+  color: var(--nav2);
+  margin-bottom: 10px;
+  justify-content: center;
+`;
+
 const Reflections = () => {
   return (
     <ReflectionsSection id="reflections">
@@ -90,9 +98,34 @@ const Reflections = () => {
         </div>
         <Content>
           <Text>
-            Github: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github page</a> <br />
-            Team dailies: <a href="https://oip2023.discourse.group/t/team-9a-dailies">OIP 2023 Team 9A Dailies</a> <br /> <br />
+            Test
           </Text>
+          <h4 style={{marginBottom:'15px'}}>Relevant Links</h4>
+          <SubText>
+            Github: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github page</a> <br />
+            Team dailies: <a href="https://oip2023.discourse.group/t/team-9a-dailies">OIP 2023 Team 9A Dailies</a> (to provide pdf link) <br />
+            Weekly Pitch 1: <br />
+            <iframe
+            width="650"
+            height="400"
+            src="https://www.youtube.com/embed/3Xn6O9Hdr8k"
+            title="Weekly Pitch 1"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            />
+            <br />
+            Weekly Pitch 2: <br />
+            <iframe
+            width="650"
+            height="400"
+            src="https://www.youtube.com/embed/6u5A0mVla4s"
+            title="Weekly Pitch 2"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            />
+          </SubText>
         </Content>
       </Main>
     </ReflectionsSection>
