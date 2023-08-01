@@ -3,7 +3,6 @@ import { useEffect, useRef } from "react";
 import styled from "styled-components";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Tube from "../../assets/3dtube.png";
 import QuestionsList from "../../assets/QuestionsList.PNG"
 import Prototype200723 from "../../assets/Prototype200723.png"
 import Prototype240723_1 from "../../assets/Prototype240723_1.png"
@@ -11,14 +10,8 @@ import Prototype240723_2 from "../../assets/Prototype240723_2.png"
 import RaceDiagram from "../../assets/RaceDiagram.PNG"
 import BattleDiagram from "../../assets/BattleDiagram.PNG"
 import BattleTest from "../../assets/BattleTest.png"
-import Cone from "../../assets/3dtriangle.png";
-import Capsule from "../../assets/3dcapsule.png";
-
+import race1 from "../../assets/race1.jpg"
 import TextBlock from "../../components/TextBlock";
-import SvgBlock from "../../components/SvgBlock";
-
-// const TextBlock = lazy(() => import("../../components/TextBlock"));
-// const SvgBlock = lazy(() => import("../../components/SvgBlock"));
 
 const IdeationSection = styled.section`
   width: 100vw;
@@ -482,6 +475,19 @@ const Ideation = () => {
           }
         />
         <img src={BattleTest} alt = "Battle Test" style={{ width: '50%' }} />
+      </Content>
+
+      <Content>
+        <TextBlock
+          topic="Development"
+          title={<h1>1st Aug 2023</h1>}
+          subText={
+            <h3>
+              To incorporate left and right movements of the robot, decided to implement an additional race activity where students need to navigate the race track via the Curio.
+            </h3>
+          }
+        />
+        <img src={race1} alt = "Race" style={{ width: '50%' }} />
       </Content>
       
     </IdeationSection>

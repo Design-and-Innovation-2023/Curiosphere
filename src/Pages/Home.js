@@ -2,6 +2,7 @@
 
 //Import all the require sections here
 import HeroSection from "../Sections/Hero/index";
+import OurSolution from "../Sections/OurSolution/index";
 import ProblemStatement from "../Sections/ProblemStatement/index";
 import Ideation from "../Sections/Ideation/index";
 import Testimonials from "../Sections/Testimonials/index";
@@ -24,6 +25,7 @@ const Home = () => {
   return (
     <Container>
       <HeroSection />
+      <OurSolution />
       <ProblemStatement />
       <Ideation />
       <Reflections />

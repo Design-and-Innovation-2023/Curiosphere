@@ -8,6 +8,7 @@ import whiteBlob from "../../assets/blob white.png";
 import arrow from "../../assets/Arrow Right.svg";
 import Mobile from "../../assets/mobile.svg";
 import CurioLogo from "../../assets/curiologo.png"
+import ActualCurio from "../../assets/actual_curio.png"
 
 const move = keyframes`
 0% { transform: translateY(-5px)  }
@@ -200,7 +201,7 @@ const HeroSection = () => {
             <span>We Build Web</span>
           </Topic> */}
           <Wrapper>
-            <Title>Designing computing science activities using Curio platform</Title>
+            <Title>Curiosphere: Where Education Comes Alive!</Title>
               <SubText>
                 Overseas Immersion Programme (OIP) July- Aug 2023
               </SubText>
@@ -212,11 +213,11 @@ const HeroSection = () => {
         </Lb>
 
         <MobileSvg
-          src={CurioLogo}
-          alt="Curio Logo"
+          src={ActualCurio}
+          alt="Actual Curio"
           srcset=""
-          width="400"
-          height="400"
+          width="2000"
+          height="2000"
         />
       </MainContent>
     </HomeSection>
