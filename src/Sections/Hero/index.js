@@ -2,8 +2,8 @@
 
 import styled, { keyframes } from "styled-components";
 
-import pinkBlob from "../../assets/blobPink.png";
-import purpleBlob from "../../assets/blob purple.png";
+import blueBlob from "../../assets/blob_blue.png"
+import blueBlob2 from "../../assets/blob_blue2.png"
 import whiteBlob from "../../assets/blob white.png";
 import arrow from "../../assets/Arrow Right.svg";
 import Mobile from "../../assets/mobile.svg";
@@ -23,7 +23,7 @@ const Wrapper = styled.div`
 const HomeSection = styled.section`
   width: 100vw;
   height: 45vw;
-  background-color: white;
+  background-color: #100c14;
   display: flex;
   justify-content: center;
   position: relative;
@@ -46,14 +46,14 @@ const Blobs = styled.div`
   }
 `;
 
-const PinkBlob = styled.div`
+const BlueBlob2 = styled.div`
   width: calc(15% + 15vw);
   position: absolute;
   right: 0;
   top: calc(5rem + 5vw);
   z-index: 6;
 `;
-const PurpleBlob = styled.div`
+const BlueBlob = styled.div`
   width: calc(10% + 10vw);
   position: absolute;
   right: 0;
@@ -80,8 +80,7 @@ const MainContent = styled.div`
 `;
 
 const MobileSvg = styled.img`
-  max-width: 100%;
-  width: calc(30% + 20vw);
+  width: 75%;
   height: auto;
   z-index: 7;
   animation: ${move} 2.5s ease infinite;
@@ -144,12 +143,12 @@ const Title = styled.h1`
   font-size: 4rem;
   line-height: 1.2;
   padding: 0.5rem 0;
-  color: black;
+  color: white;
 `;
 
 const SubText = styled.h5`
   font-size: calc(0.5rem + 0.5vw);
-  color: var(--nav2);
+  color: white;
 `;
 
 const CTA = styled.button`
@@ -182,17 +181,17 @@ const CTA = styled.button`
 const HeroSection = () => {
   return (
     <HomeSection id="home">
-      {/* <Blobs>
-        <PinkBlob>
-          <img src={pinkBlob} alt="" width="400" height="400" />{" "}
-        </PinkBlob>
+      <Blobs>
+        <BlueBlob2>
+          <img src={blueBlob2} alt="" width="400" height="400" />{" "}
+        </BlueBlob2>
         <WhiteBlob>
           <img src={whiteBlob} alt="" width="400" height="400" />
         </WhiteBlob>
-        <PurpleBlob>
-          <img src={purpleBlob} alt="" width="400" height="400" />
-        </PurpleBlob>
-      </Blobs> */}
+        <BlueBlob>
+          <img src={blueBlob} alt="" width="400" height="400" />
+        </BlueBlob>
+      </Blobs>
 
       <MainContent id="home">
         <Lb id="leftBlock">

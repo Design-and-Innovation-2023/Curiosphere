@@ -222,7 +222,7 @@ const Header = () => {
         <img src={curiologo} alt="Curio Logo" />
         <div>
           <a href="#solution" onClick={(e) => scrollUp("solution", e)}>
-            <h3>Team9A</h3>
+            <h3 style={{color:'white'}}>Team9A</h3>
           </a>
         </div>
       </Logo>

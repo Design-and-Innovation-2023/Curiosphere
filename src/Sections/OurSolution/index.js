@@ -2,6 +2,7 @@ import styled, { keyframes } from "styled-components";
 import mcq from "../../assets/mcq.PNG";
 import mcq2 from "../../assets/mcq2.PNG";
 import bluetooth from "../../assets/bluetooth.png";
+import poster from "../../assets/poster.jpg";
 
 const move = keyframes`
   0% { transform: translateY(-5px); }
@@ -109,7 +110,7 @@ const OurSolution = () => {
           A Web Bluetooth connection is established between the Curio robot with our web application which allows students to complete a computing science quiz of Multiple Choice Questions (MCQs). 
           </Text>
           <br />
-        <img src={bluetooth} alt="" style={{width:'600px'}} />
+        <img src={bluetooth} alt="" style={{width:'800px'}} />
         </div>
 
         <Content>
@@ -153,6 +154,14 @@ const OurSolution = () => {
         <Text>
         An example of our web application displaying a Multiple Choice Question (MCQ) is shown above, and when students get the correct answer, they will be given movement options.
         </Text>
+
+        <div style={{marginTop:'100px'}}>
+        <h2>
+          Team 9A Poster
+        </h2>
+        <img src={poster} alt="" style={{width:'700px'}} />
+        </div>
+
         <div>
           <Circle style={{ backgroundColor: "var(--purple)" }} />
           <Circle style={{ backgroundColor: "var(--pink)" }} />
