@@ -76,7 +76,7 @@ const Content = styled.div`
 `;
 
 const Text = styled.h4`
-  font-size: calc(0.5rem + 1vw);
+  font-size: 1.3rem;
   line-height: 1.5;
   color: var(--nav2);
   margin-bottom: 10px;
@@ -92,7 +92,7 @@ const Improvements = () => {
         </div>
         <Content>
           <Text>
-          Implementation of maze-like system where left and right movements of the robot will be incorporated. <br /> <br />
+          Creation of maze-like system so there will be more opportunities for collaborative learning. <br /> <br />
           Implementation of communication between different robots, so more functionalities can be introduced into the game such as attacking and defending and this will affect the health points of the robots.
           </Text>
         </Content>

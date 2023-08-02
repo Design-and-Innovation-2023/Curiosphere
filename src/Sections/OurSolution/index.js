@@ -1,6 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import mcq from "../../assets/mcq.PNG";
 import mcq2 from "../../assets/mcq2.PNG";
+import bluetooth from "../../assets/bluetooth.png";
 
 const move = keyframes`
   0% { transform: translateY(-5px); }
@@ -37,7 +38,6 @@ const Main = styled.div`
 
 const Title = styled.h1`
   font-size: 2rem;
-  margin-top:-150px;
 `;
 
 const CurvedLine = styled.div`
@@ -62,7 +62,7 @@ const Content = styled.div`
 `;
 
 const Text = styled.h4`
-  font-size: calc(0.5rem + 1vw);
+  font-size: 1.2rem;
   line-height: 1.5;
   color: var(--nav2);
   display: flex;
@@ -96,19 +96,6 @@ const Video = styled.iframe`
   height: 400px;
 `;
 
-const ImageRow = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-
-  img {
-    margin: 0.5rem;
-    max-width: 400px;
-    max-height: 400px;
-  }
-`;
-
 const OurSolution = () => {
   return (
     <OurSolutionSection id="solution">
@@ -117,10 +104,17 @@ const OurSolution = () => {
         <div>
           <Title>Our Solution</Title>
         </div>
+        <div>
+          <Text>
+          A Web Bluetooth connection is established between the Curio robot with our web application which allows students to complete a computing science quiz of Multiple Choice Questions (MCQs). 
+          </Text>
+          <br />
+        <img src={bluetooth} alt="" style={{width:'600px'}} />
+        </div>
 
         <Content>
           <VideoWrapper>
-            <h2 style={{marginTop:'-100px'}}>Battle Mode</h2>
+            <h2>Battle Mode</h2>
             <Video
               width="650"
               height="400"
@@ -131,7 +125,7 @@ const OurSolution = () => {
               allowFullScreen
             />
             <Text>
-              2 teams answer MCQ questions regarding computing science. Every correct answer causes the robot to move forwards while the wrong answer will cause the robot to move backwards.
+              2 teams attempt the quiz. Every correct answer causes the robot to move forwards while the wrong answer will cause the robot to move backwards.
               <br />
               <br />
               The team whose robot passes the middle line first or travels further is the victor.
@@ -152,12 +146,13 @@ const OurSolution = () => {
             </Text>
           </VideoWrapper>
         </Content>
-
-        <ImageRow>
-          <img src={mcq} alt="" width="400" height="400" />
-          <img src={mcq2} alt="" width="400" height="400" />
-        </ImageRow>
-
+        <div style={{marginTop:'100px'}}>
+        <img src={mcq} alt="" style={{width:'500px'}} />
+        <img src={mcq2} alt="" style={{width:'500px'}} />
+        </div>
+        <Text>
+        An example of our web application displaying a Multiple Choice Question (MCQ) is shown above, and when students get the correct answer, they will be given movement options.
+        </Text>
         <div>
           <Circle style={{ backgroundColor: "var(--purple)" }} />
           <Circle style={{ backgroundColor: "var(--pink)" }} />

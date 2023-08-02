@@ -64,35 +64,13 @@ const Nav = styled.nav`
   }
 `;
 
-const Button = styled.button`
-  background-color: var(--purple);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  color: var(--white);
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
-  &:hover {
-    transform: scale(1.1);
-  }
-  &:focus {
-    transform: scale(0.9);
-  }
-  @media only Screen and (max-width: 40em) {
-    font-size: 1.2rem;
-    &:hover {
-      transform: none;
-    }
-    &:focus {
-      transform: none;
-    }
-  }
+const HamburgerButtonWrapper = styled.div`
+  display: inline-block;
+  padding: 20px;
 `;
+
 const HamburgerBtn = styled.button`
-  display: none;
-  @media only Screen and (max-width: 48em) {
-    display: inline-block;
-  }
+  display: inline-block;
   position: relative;
   background-color: transparent;
   width: 2rem;
@@ -104,8 +82,8 @@ const HamburgerBtn = styled.button`
   &::after {
     content: "";
     background-color: var(--white);
-    width: 2rem;
-    height: 2px;
+    width: 2.0rem;
+    height: 2.0px;
     display: inline-block;
     position: absolute;
     left: 0;
@@ -124,18 +102,15 @@ const HamburgerBtn = styled.button`
 `;
 
 const MobileMenu = styled.nav`
-  display: none;
-  @media only Screen and (max-width: 48em) {
-    display: flex;
-  }
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 2rem 0;
   overflow-x: hidden;
   position: absolute;
-  top: 100%;
-  left: 0;
+  width: 12rem;
+  top: 50%;
   right: 0;
   opacity: ${(props) => (props.clicked ? "1" : 0)};
   visibility: ${(props) => (props.clicked ? "visible" : "hidden")};
@@ -164,7 +139,7 @@ const Header = () => {
     const element = document.getElementById(id);
     element.scrollIntoView({
       behavior: "smooth",
-      block: "end",
+      block: "start",
       inline: "nearest",
     });
   };
@@ -226,19 +201,42 @@ const Header = () => {
     }
   }, []);
 
+  useEffect(() => {
+    const handleClickOutsideMenu = (event) => {
+      if (ref.current && !ref.current.contains(event.target)) {
+        setClick(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutsideMenu);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutsideMenu);
+    };
+  }, []);
+
+
   return (
     <Headers ref={ref}>
       <Logo>
         <img src={curiologo} alt="Curio Logo" />
-        <h3>Team</h3>
-        <h3>9A</h3>
+        <div>
+          <a href="#solution" onClick={(e) => scrollUp("solution", e)}>
+            <h3>Team9A</h3>
+          </a>
+        </div>
       </Logo>
-      <Nav>
-        <a href="#home" onClick={(e) => scrollUp("home", e)}>
+      <HamburgerButtonWrapper onClick={() => setClick(!click)}>
+        <HamburgerBtn clicked={click} onClick={() => setClick(!click)}>
+          <span></span>
+        </HamburgerBtn>
+      </HamburgerButtonWrapper>
+      <MobileMenu clicked={click}>
+      <a href="#home" onClick={(e) => scrollUp("home", e)}>
           Home
         </a>
         <a href="#problem" onClick={(e) => scrollUp("problem", e)}>
-          Problem Statement
+          Challenge
         </a>
         <a href="#ideation" onClick={(e) => scrollUp("ideation", e)}>
           Ideation
@@ -254,29 +252,6 @@ const Header = () => {
         </a>
         <a href="#improvements" onClick={(e) => scrollUp("improvements", e)}>
           Improvements
-        </a>
-      </Nav>
-      <HamburgerBtn clicked={click} onClick={() => setClick(!click)}>
-        <span></span>
-      </HamburgerBtn>
-      <MobileMenu clicked={click}>
-      <a href="#home" onClick={(e) => scrollUp("home", e)}>
-          Home
-        </a>
-        <a href="#problem" onClick={(e) => scrollUp("problem", e)}>
-          Problem Statement
-        </a>
-        <a href="#ideation" onClick={(e) => scrollUp("ideation", e)}>
-          Ideation
-        </a>
-        <a href="#reflections" onClick={(e) => scrollUp("reflections", e)}>
-          Reflections
-        </a>
-        <a href="#achievements" onClick={(e) => scrollUp("achievements", e)}>
-          Achievements
-        </a>
-        <a href="#constraints" onClick={(e) => scrollUp("constraints", e)}>
-          Constraints
         </a>
       </MobileMenu>
     </Headers>

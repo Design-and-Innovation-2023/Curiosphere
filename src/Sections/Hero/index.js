@@ -141,7 +141,7 @@ const Circle = styled.span`
 `;
 
 const Title = styled.h1`
-  font-size: calc(2rem + 1vw);
+  font-size: 4rem;
   line-height: 1.2;
   padding: 0.5rem 0;
   color: black;

@@ -76,7 +76,7 @@ const Content = styled.div`
 `;
 
 const Text = styled.h4`
-  font-size: calc(0.5rem + 1vw);
+  font-size: 1.3rem;
   line-height: 1.5;
   color: var(--nav2);
   margin-bottom: 10px;
@@ -104,7 +104,7 @@ const Reflections = () => {
             
             During prototyping, we get to experiment with different ways to approach the challenge, and also changing our perspectives from us the developers to the end-users when testing the protoypes. This allowed us to fine-tune our designs and improve them based on external feedback and our own takeaways during the whole prototyping process. Some of us had the chance to sharpen our brainstorming skills while others learned the importance of seeing the project from the client's view to form a suitable solution. <br /> <br /> 
           </Text>
-          <h4 style={{marginBottom:'15px'}}>Relevant Links</h4>
+          <h4 style={{marginBottom:'15px', fontSize:'1.5rem'}}>Relevant Links</h4>
           <SubText>
             Github: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github page</a> <br />
             Team dailies: <a href="https://oip2023.discourse.group/t/team-9a-dailies">OIP 2023 Team 9A Dailies</a> (to provide pdf link) <br />

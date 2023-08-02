@@ -97,7 +97,7 @@ const Human = styled.div`
   }
 `;
 const Text = styled.h4`
-  font-size: calc(0.5rem + 1vw);
+  font-size: 1.3rem;
   line-height: 1.5;
   color: var(--nav2);
 `;
