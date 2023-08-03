@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Curiosphere/static/js/main.9b7a5917.js",
+    "main.js": "/Curiosphere/static/js/main.67d01e5b.js",
     "static/css/322.d423cd93.chunk.css": "/Curiosphere/static/css/322.d423cd93.chunk.css",
-    "static/js/322.7f09319d.chunk.js": "/Curiosphere/static/js/322.7f09319d.chunk.js",
+    "static/js/322.19db180b.chunk.js": "/Curiosphere/static/js/322.19db180b.chunk.js",
     "static/js/959.e9358480.chunk.js": "/Curiosphere/static/js/959.e9358480.chunk.js",
     "static/js/882.746e3d33.chunk.js": "/Curiosphere/static/js/882.746e3d33.chunk.js",
     "static/js/34.ed8b5e26.chunk.js": "/Curiosphere/static/js/34.ed8b5e26.chunk.js",
@@ -54,9 +54,9 @@
     "static/media/linkedin-brands.svg": "/Curiosphere/static/media/linkedin-brands.d7833fba7bdcf55514c4109c6c1eb7d0.svg",
     "static/media/facebook-square-brands.svg": "/Curiosphere/static/media/facebook-square-brands.38c6b4e5a1568d1aa181dd4ff5b08e05.svg",
     "static/media/arrow-up.svg": "/Curiosphere/static/media/arrow-up.65164624ca1539634ee30e63113402a1.svg",
-    "main.9b7a5917.js.map": "/Curiosphere/static/js/main.9b7a5917.js.map",
+    "main.67d01e5b.js.map": "/Curiosphere/static/js/main.67d01e5b.js.map",
     "322.d423cd93.chunk.css.map": "/Curiosphere/static/css/322.d423cd93.chunk.css.map",
-    "322.7f09319d.chunk.js.map": "/Curiosphere/static/js/322.7f09319d.chunk.js.map",
+    "322.19db180b.chunk.js.map": "/Curiosphere/static/js/322.19db180b.chunk.js.map",
     "959.e9358480.chunk.js.map": "/Curiosphere/static/js/959.e9358480.chunk.js.map",
     "882.746e3d33.chunk.js.map": "/Curiosphere/static/js/882.746e3d33.chunk.js.map",
     "34.ed8b5e26.chunk.js.map": "/Curiosphere/static/js/34.ed8b5e26.chunk.js.map",
@@ -65,6 +65,6 @@
     "113.d3508c64.chunk.js.map": "/Curiosphere/static/js/113.d3508c64.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.9b7a5917.js"
+    "static/js/main.67d01e5b.js"
   ]
 }
