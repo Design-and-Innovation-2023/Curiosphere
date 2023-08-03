@@ -79,8 +79,9 @@ const ChallengesIcon = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 35%;
+  width: 20%;
   padding-bottom: 5rem;
+  margin: 0 auto;
   animation: ${move} 2.5s ease infinite;
   @media only Screen and (max-width: 40em) {
     width: 50vw;

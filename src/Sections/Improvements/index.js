@@ -1,8 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import wave from "../../assets/waves.svg";
-import rocket from "../../assets/rocket image.png";
-import human from "../../assets/human.svg";
-import hand from "../../assets/hand.svg";
+import improvement from "../../assets/improvement.png"
 
 const move = keyframes`
 0% { transform: translateY(-5px)         }
@@ -65,8 +62,6 @@ const Text = styled.h4`
   color: var(--nav2);
   margin-bottom: 10px;
   display: flex;
-  align-items: center;
-  text-align: center;
 `;
 
 const Circle = styled.span`
@@ -79,6 +74,19 @@ const Circle = styled.span`
   margin-top: 1rem;
 `;
 
+const ImprovementsIcon = styled.div`
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 70%;
+  padding-bottom: 5rem;
+  animation: ${move} 2.5s ease infinite;
+  @media only Screen and (max-width: 40em) {
+    width: 50vw;
+    padding-bottom: 0;
+  }
+`;
+
 const Improvements = () => {
   return (
     <ImprovementsSection id="improvements">
@@ -88,6 +96,9 @@ const Improvements = () => {
         </div>
 
         <Content>
+          <ImprovementsIcon>
+            <img src={improvement} alt="" />
+          </ImprovementsIcon>
           <Text>
           Creation of maze-like system so there will be more opportunities for collaborative learning. <br /> <br />
           Implementation of communication between different robots, so more functionalities can be introduced into the game such as attacking and defending and this will affect the health points of the robots.

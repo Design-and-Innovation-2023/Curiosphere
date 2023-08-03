@@ -25,15 +25,6 @@ const Waves = styled.img`
   position: absolute;
   top: -1rem;
 `;
-// const Hand = styled.div`
-//   position: absolute;
-//   bottom: -1rem;
-//   right: 0;
-
-//   @media only Screen and (max-width: 40em) {
-//     display: none;
-//   }
-// `;
 
 const Main = styled.div`
   margin: 0 15rem;
@@ -77,7 +68,8 @@ const ProblemStatementImg = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 40%;
+  width: 30%;
+  margin: 0 auto;
   padding-bottom: 5rem;
   animation: ${move} 2.5s ease infinite;
   @media only Screen and (max-width: 40em) {

@@ -1,8 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import wave from "../../assets/waves.svg";
-import rocket from "../../assets/rocket image.png";
-import human from "../../assets/human.svg";
-import hand from "../../assets/hand.svg";
 
 const move = keyframes`
 0% { transform: translateY(-5px)         }
