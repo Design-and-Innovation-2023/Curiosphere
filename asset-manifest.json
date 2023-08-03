@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Curiosphere/static/js/main.49f73814.js",
-    "static/css/92.fb1666e6.chunk.css": "/Curiosphere/static/css/92.fb1666e6.chunk.css",
-    "static/js/92.b7ea8afc.chunk.js": "/Curiosphere/static/js/92.b7ea8afc.chunk.js",
+    "main.js": "/Curiosphere/static/js/main.35902028.js",
+    "static/css/18.01bd9fe2.chunk.css": "/Curiosphere/static/css/18.01bd9fe2.chunk.css",
+    "static/js/18.39e1bb00.chunk.js": "/Curiosphere/static/js/18.39e1bb00.chunk.js",
     "static/js/959.e9358480.chunk.js": "/Curiosphere/static/js/959.e9358480.chunk.js",
     "static/js/882.746e3d33.chunk.js": "/Curiosphere/static/js/882.746e3d33.chunk.js",
     "static/js/34.ed8b5e26.chunk.js": "/Curiosphere/static/js/34.ed8b5e26.chunk.js",
@@ -29,6 +29,7 @@
     "static/media/achievementicon.png": "/Curiosphere/static/media/achievementicon.17f3fc8306c13aeeed58.png",
     "static/media/challengesicon.png": "/Curiosphere/static/media/challengesicon.418184a5c371222ef037.png",
     "static/media/blob_blue2.png": "/Curiosphere/static/media/blob_blue2.07dfd5be98b3a47622cc.png",
+    "static/media/improvement.png": "/Curiosphere/static/media/improvement.fb2c674b677dc26b4890.png",
     "static/media/curiologo.png": "/Curiosphere/static/media/curiologo.d83f05a5e60c6246b62d.png",
     "static/media/Prototype240723_2.png": "/Curiosphere/static/media/Prototype240723_2.e36a21e9593e3f17af10.png",
     "static/media/Prototype240723_1.png": "/Curiosphere/static/media/Prototype240723_1.32dd27657ef1860b01eb.png",
@@ -49,9 +50,9 @@
     "static/media/linkedin-brands.svg": "/Curiosphere/static/media/linkedin-brands.d7833fba7bdcf55514c4109c6c1eb7d0.svg",
     "static/media/facebook-square-brands.svg": "/Curiosphere/static/media/facebook-square-brands.38c6b4e5a1568d1aa181dd4ff5b08e05.svg",
     "static/media/arrow-up.svg": "/Curiosphere/static/media/arrow-up.65164624ca1539634ee30e63113402a1.svg",
-    "main.49f73814.js.map": "/Curiosphere/static/js/main.49f73814.js.map",
-    "92.fb1666e6.chunk.css.map": "/Curiosphere/static/css/92.fb1666e6.chunk.css.map",
-    "92.b7ea8afc.chunk.js.map": "/Curiosphere/static/js/92.b7ea8afc.chunk.js.map",
+    "main.35902028.js.map": "/Curiosphere/static/js/main.35902028.js.map",
+    "18.01bd9fe2.chunk.css.map": "/Curiosphere/static/css/18.01bd9fe2.chunk.css.map",
+    "18.39e1bb00.chunk.js.map": "/Curiosphere/static/js/18.39e1bb00.chunk.js.map",
     "959.e9358480.chunk.js.map": "/Curiosphere/static/js/959.e9358480.chunk.js.map",
     "882.746e3d33.chunk.js.map": "/Curiosphere/static/js/882.746e3d33.chunk.js.map",
     "34.ed8b5e26.chunk.js.map": "/Curiosphere/static/js/34.ed8b5e26.chunk.js.map",
@@ -60,6 +61,6 @@
     "113.d3508c64.chunk.js.map": "/Curiosphere/static/js/113.d3508c64.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.49f73814.js"
+    "static/js/main.35902028.js"
   ]
 }
