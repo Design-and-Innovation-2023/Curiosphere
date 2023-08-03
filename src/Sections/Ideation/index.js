@@ -12,6 +12,8 @@ import BattleDiagram from "../../assets/BattleDiagram.PNG"
 import BattleTest from "../../assets/BattleTest.png"
 import race1 from "../../assets/race1.jpg"
 import TextBlock from "../../components/TextBlock";
+import exhibitionday from "../../assets/exhibitionday.jpg"
+import usabilitytesting from "../../assets/usability_testing_pic.PNG"
 
 const IdeationSection = styled.section`
   width: 100vw;
@@ -321,7 +323,7 @@ const Ideation = () => {
   return (
     <IdeationSection id="ideation">
       <Background ref={ref}>
-        <Title className="title">Ideation Process and Prototypes Built</Title>
+        <Title className="title">Ideation Journey and Prototypes Built</Title>
         {/* <Line id="line" />
         <Triangle id="triangle" /> */}
       </Background>
@@ -477,15 +479,20 @@ const Ideation = () => {
 
       <Content>
         <TextBlock
-          topic="Development"
+          topic="Development and Testing"
           title={<h1>1st Aug 2023</h1>}
           subText ={
             <h3 style={{marginRight:'20px'}}>
-              To incorporate left and right movements of the robot, decided to implement a race activity where students need to navigate the race track via the Curio.
+              To incorporate left and right movements of the robot, decided to implement a race activity where students need to navigate the race track (represented with the pencils on the table) via the Curio.
+              <br /> <br />
+              Next, we conducted some usability testing with our fellow coursemates Owen and Kenny, to receive their feedback.
             </h3>
           }
         />
-        <img src={race1} alt = "Race" style={{ width: '50%' }} />
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <img src={race1} alt="Race" style={{ width: '50%' }} />
+          <img src={usabilitytesting} alt="Usability Testing" style={{ width: '50%', marginTop:'20px' }} />
+        </div>
       </Content>
 
       <Content>
@@ -515,8 +522,21 @@ const Ideation = () => {
           topic="Exhibition"
           title={<h1>3rd Aug 2023</h1>}
           subText={
-            <h3>
-              Exhibition Day
+            <h3 style={{marginRight:'20px'}}>
+              The day where we presented our work to other stakeholders and the rest of the cohort. A booth was set up where visitors can try out our solution and take part in our activities. On the right it shows Professor Jonathan and our coursemate Jeff trying out the race activity.
+            </h3>
+          }
+        />
+         <img src={exhibitionday} alt = "Exhibition Day" style={{ width: '45%' }} />
+      </Content>
+
+      <Content>
+        <TextBlock
+          topic="Closing"
+          title={<h1>4th Aug 2023</h1>}
+          subText={
+            <h3 style={{marginRight:'20px'}}>
+              The end of our OIP journey.
             </h3>
           }
         />

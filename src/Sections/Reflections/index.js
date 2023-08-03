@@ -1,4 +1,6 @@
 import styled, { keyframes } from "styled-components";
+import daily_comm1 from "../../assets/daily_comm1.png"
+import daily_comm2 from "../../assets/daily_comm2.png"
 
 const move = keyframes`
 0% { transform: translateY(-5px)         }
@@ -119,7 +121,7 @@ const Reflections = () => {
           </Text>
 
           <h4 style={{marginBottom:'15px', fontSize:'1.5rem'}}>Relevant Links</h4>
-          <SubText>
+          <SubText style={{marginBottom:'20px'}}>
             To view the source code for our Curio activities and also this webpage, this is the repository: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github Repository</a> <br /> <br />
             To view the full Team 9A Dailies forum that we had throughout the duration of this project, click <a href="/pdf/Team9A_Dailies_OIP2023.pdf" download="Team9A_Dailies_OIP2023.pdf">here</a> to download a PDF file of it. <br /> <br />
             Weekly Pitch 1: <br />
@@ -154,10 +156,16 @@ const Reflections = () => {
             </div>
           </SubText>
 
-          {/* <SubText>
-            Here are some snippets of the communication that we had with our project partners via email:
-          </SubText> */}
-
+          <SubText style={{marginTop:'50px'}}>
+            Next, here are some snippets of the communication that we had with our project partners (Professor Jeremy and Lewis) via email:
+          </SubText>
+          <img src={daily_comm1} alt="Daily Comm 1" style={{ width: '70%'}} />
+          <img src={daily_comm2} alt="Daily Comm 2" style={{ width: '70%', marginTop:'40px', marginBottom:'80px' }} />
+          
+          <SubText>
+            Next, these are results that we have gotten from the usability testing where we allowed external parties to test out our prototype:
+          </SubText>
+          
         </Content>
       </Main>
       <div>
