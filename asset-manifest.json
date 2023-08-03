@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.js": "/Team9A/static/js/main.75ae05e9.js",
+    "main.js": "/Team9A/static/js/main.ff2b22f0.js",
     "static/css/92.70662803.chunk.css": "/Team9A/static/css/92.70662803.chunk.css",
-    "static/js/92.6bb465a3.chunk.js": "/Team9A/static/js/92.6bb465a3.chunk.js",
-    "static/js/959.57eb47cf.chunk.js": "/Team9A/static/js/959.57eb47cf.chunk.js",
+    "static/js/92.d661fe8f.chunk.js": "/Team9A/static/js/92.d661fe8f.chunk.js",
+    "static/js/959.e9358480.chunk.js": "/Team9A/static/js/959.e9358480.chunk.js",
     "static/js/882.746e3d33.chunk.js": "/Team9A/static/js/882.746e3d33.chunk.js",
     "static/js/34.ed8b5e26.chunk.js": "/Team9A/static/js/34.ed8b5e26.chunk.js",
-    "static/js/258.4fed2e9b.chunk.js": "/Team9A/static/js/258.4fed2e9b.chunk.js",
+    "static/js/258.25e33af5.chunk.js": "/Team9A/static/js/258.25e33af5.chunk.js",
     "static/js/783.170ff11d.chunk.js": "/Team9A/static/js/783.170ff11d.chunk.js",
-    "static/js/991.92d186f9.chunk.js": "/Team9A/static/js/991.92d186f9.chunk.js",
+    "static/js/113.d3508c64.chunk.js": "/Team9A/static/js/113.d3508c64.chunk.js",
     "static/media/BattleTest.png": "/Team9A/static/media/BattleTest.111e0e5b7af36f807a90.png",
     "static/media/hand.svg": "/Team9A/static/media/hand.e14e852afa6101e25c365fe655829695.svg",
     "static/media/poster.jpg": "/Team9A/static/media/poster.fdb42e2be09ab79052f0.jpg",
     "static/media/race1.jpg": "/Team9A/static/media/race1.cfbc3639ba8b39636a8f.jpg",
+    "static/media/Team9A.jpg": "/Team9A/static/media/Team9A.b24b09f8c4b90de569ce.jpg",
     "static/media/QuestionsList.PNG": "/Team9A/static/media/QuestionsList.ac2e3370f2b306d8b7c4.PNG",
     "static/media/actual_curio.png": "/Team9A/static/media/actual_curio.4a7038f477b52a660d9d.png",
     "static/media/Prototype200723.png": "/Team9A/static/media/Prototype200723.2c6864a85955fb21ad48.png",
@@ -48,17 +49,17 @@
     "static/media/linkedin-brands.svg": "/Team9A/static/media/linkedin-brands.d7833fba7bdcf55514c4109c6c1eb7d0.svg",
     "static/media/facebook-square-brands.svg": "/Team9A/static/media/facebook-square-brands.38c6b4e5a1568d1aa181dd4ff5b08e05.svg",
     "static/media/arrow-up.svg": "/Team9A/static/media/arrow-up.65164624ca1539634ee30e63113402a1.svg",
-    "main.75ae05e9.js.map": "/Team9A/static/js/main.75ae05e9.js.map",
+    "main.ff2b22f0.js.map": "/Team9A/static/js/main.ff2b22f0.js.map",
     "92.70662803.chunk.css.map": "/Team9A/static/css/92.70662803.chunk.css.map",
-    "92.6bb465a3.chunk.js.map": "/Team9A/static/js/92.6bb465a3.chunk.js.map",
-    "959.57eb47cf.chunk.js.map": "/Team9A/static/js/959.57eb47cf.chunk.js.map",
+    "92.d661fe8f.chunk.js.map": "/Team9A/static/js/92.d661fe8f.chunk.js.map",
+    "959.e9358480.chunk.js.map": "/Team9A/static/js/959.e9358480.chunk.js.map",
     "882.746e3d33.chunk.js.map": "/Team9A/static/js/882.746e3d33.chunk.js.map",
     "34.ed8b5e26.chunk.js.map": "/Team9A/static/js/34.ed8b5e26.chunk.js.map",
-    "258.4fed2e9b.chunk.js.map": "/Team9A/static/js/258.4fed2e9b.chunk.js.map",
+    "258.25e33af5.chunk.js.map": "/Team9A/static/js/258.25e33af5.chunk.js.map",
     "783.170ff11d.chunk.js.map": "/Team9A/static/js/783.170ff11d.chunk.js.map",
-    "991.92d186f9.chunk.js.map": "/Team9A/static/js/991.92d186f9.chunk.js.map"
+    "113.d3508c64.chunk.js.map": "/Team9A/static/js/113.d3508c64.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.75ae05e9.js"
+    "static/js/main.ff2b22f0.js"
   ]
 }
