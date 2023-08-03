@@ -38,13 +38,13 @@ const Background = styled.div`
   width: 100vw;
   height: 85vh;
   z-index: -1;
-  background-color: #0a0b10;
+  background-color: #eff7f9;
   background-size: auto 100vh;
   background-repeat: no-repeat;
 `;
 
 const Title = styled.h1`
-  color: var(--white);
+  color: black;
   display: inline-block;
   font-size: 2rem;
   /* margin-top: 4rem; */
@@ -331,9 +331,9 @@ const Ideation = () => {
       <Content> 
         <TextBlock
           topic="Brainstorm"
-          title={<h1>18th July 2023</h1>}
+          title={<h1 style={{ color: "black" }}>18th July 2023</h1>}
           subText={
-            <h3>
+            <h3 style={{ color: "black", marginRight:'20px' }}>
               Came out with questions to ask project partners before meeting them to get a better idea of the overall project and form plans to move forward. 
             </h3>
           }
@@ -344,9 +344,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Meeting"
-          title={<h1>19th July 2023</h1>}
+          title={<h1 style={{ color: "black" }}>19th July 2023</h1>}
           subText={
-            <h3>
+            <h3 style={{ color: "black" }}>
               Face to face meeting with project partners Professor Jeremy Singer and Lewis. Understood the requirements and started forming ideas to design activities for the students. <br /> Base idea was formed which is the concept of using Multiple Choice Questions (MCQs) to test the student’s knowledge in certain computing science topics.
             </h3>
           }
@@ -359,9 +359,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Prototype"
-          title={<h1>20th July 2023</h1>}
+          title={<h1 style={{ color: "black" }}>20th July 2023</h1>}
           subText={
-            <h3>
+            <h3 style={{ color: "black", marginRight:'20px' }}>
               Started developing a prototype consisting of a sample mcq question and 4 options.
             </h3>
           }
@@ -375,9 +375,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Prototype"
-          title={<h1>21st July 2023</h1>}
+          title={<h1 style={{ color: "black" }}>21st July 2023</h1>}
           subText={
-            <h3>
+            <h3 style={{ color: "black" }}>
                Started learning how to program the Curio robot and managed to use code to control the robot’s movements. <br /> <br />
                Developed ideas further by coming up with a race concept for the students to take part in with the Curio robot. 
             </h3>
@@ -397,9 +397,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Prototype"
-          title={<h1>24th July 2023</h1>}
+          title={<h1 style={{ color: "black" }}>24th July 2023</h1>}
           subText={
-            <h3>
+            <h3 style={{ color: "black" }}>
               Developed more prototypes (a landing page for students to log in, and a page to select which quiz to take part in)
 
               Came out of ways to encourage teamwork between the students. Thus, we came up with a maze idea. Multiple students can be involved in solving the questions and figuring out which path the robot should take through the maze, allowing for more collaborative learning.
@@ -419,9 +419,9 @@ const Ideation = () => {
   <Content>
     <TextBlock
       topic="Prototype"
-      title={<h1>25th July 2023</h1>}
+      title={<h1 style={{ color: "black" }}>25th July 2023</h1>}
       subText={
-        <h3>
+        <h3 style={{ color: "black" }}>
           Started solidifying ideas to discuss with Lewis and then to ultimately select 1 for the final solution.
           <div style={{ textAlign: 'center', width:'80%', marginLeft:'300px'}}>
             <div style={{ textAlign: 'center', width:'80%', marginBottom: '30px' }}>
@@ -441,9 +441,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Meeting"
-          title={<h1>26th July 2023</h1>}
+          title={<h1 style={{ color: "black" }}>26th July 2023</h1>}
           subText={
-            <h3>
+            <h3 style={{ color: "black" }}>
              Face to face meeting with Lewis to discuss the 2 ideas. Battle idea preferred due to space constraints. Took into account Lewis’s feedback to improve the design. <br /><br />
              - test the students based on content from multiple weeks of their lesson schedule (so the quiz will contain multiple topics instead of only 1) <br />
              - consider placing obstacles in the playing area to incorporate left and right movements of the robot
@@ -455,9 +455,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Development"
-          title={<h1>27th July 2023</h1>}
+          title={<h1 style={{ color: "black" }}>27th July 2023</h1>}
           subText={
-            <h3>
+            <h3 style={{ color: "black" }}>
                Continued development focusing on the battle idea.
             </h3>
           }
@@ -467,9 +467,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Development and Testing"
-          title={<h1>28th July 2023</h1>}
+          title={<h1 style={{ color: "black" }}>28th July 2023</h1>}
           subText={
-            <h3>
+            <h3 style={{ color: "black" }}>
               Tested out prototype by acting as students taking the quiz and participating in the battle activity.
             </h3>
           }
@@ -480,9 +480,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Development and Testing"
-          title={<h1>1st Aug 2023</h1>}
+          title={<h1 style={{ color: "black" }}>1st Aug 2023</h1>}
           subText ={
-            <h3 style={{marginRight:'20px'}}>
+            <h3 style={{marginRight:'20px', color:"black"}}>
               To incorporate left and right movements of the robot, decided to implement a race activity where students need to navigate the race track (represented with the pencils on the table) via the Curio.
               <br /> <br />
               Next, we conducted some usability testing with our fellow coursemates Owen and Kenny, to receive their feedback.
@@ -498,9 +498,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Development"
-          title={<h1>2nd Aug 2023</h1>}
+          title={<h1 style={{ color: "black" }}>2nd Aug 2023</h1>}
           subText={
-            <h3>
+            <h3 style={{ color: "black" }}>
               After crafting the poster (can be seen under "Our Solution" section), we made some development updates such as bug fixing and adding audio for a better engaging experience to finalise before exhibition day. <br /> <br />
               We also created a 10 seconds trailer for our solution: 
             </h3>
@@ -520,9 +520,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Exhibition"
-          title={<h1>3rd Aug 2023</h1>}
+          title={<h1 style={{ color: "black" }}>3rd Aug 2023</h1>}
           subText={
-            <h3 style={{marginRight:'20px'}}>
+            <h3 style={{marginRight:'20px', color:"black"}}>
               The day where we presented our work to other stakeholders and the rest of the cohort. A booth was set up where visitors can try out our solution and take part in our activities. On the right it shows Professor Jonathan and our coursemate Jeff trying out the race activity.
             </h3>
           }
@@ -533,9 +533,9 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Closing"
-          title={<h1>4th Aug 2023</h1>}
+          title={<h1 style={{ color: "black" }}>4th Aug 2023</h1>}
           subText={
-            <h3 style={{marginRight:'20px'}}>
+            <h3 style={{marginRight:'20px', color:"black"}}>
               The end of our OIP journey.
             </h3>
           }
