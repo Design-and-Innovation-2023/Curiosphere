@@ -178,7 +178,47 @@ const CTA = styled.button`
   }
 `;
 
+const StyledButton = styled.button`
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  width: 13rem;
+  height: 4rem;
+  padding: 0 auto;
+  margin-top: 1rem;
+  border: 2px solid #48caff;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: calc(0.5rem + 0.5vw);
+  font-weight: 700;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s;
+
+  @media only screen and (max-width: 48em) {
+    padding: 0.2rem 1rem;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+`;
+
 const HeroSection = () => {
+
+  const scrollUp = (id, e) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  };
+  
   return (
     <HomeSection id="home">
       <Blobs>
@@ -204,11 +244,10 @@ const HeroSection = () => {
               <SubText>
                 Overseas Immersion Programme (OIP) July- Aug 2023
               </SubText>
+            <StyledButton onClick={(e) => scrollUp("solution", e)}>
+            View Our Solution
+          </StyledButton>
           </Wrapper>
-          {/* <CTA>
-            Get in touch &nbsp;
-            <img src={arrow} alt="cta" width="100" height="100" />
-          </CTA> */}
         </Lb>
 
         <MobileSvg
