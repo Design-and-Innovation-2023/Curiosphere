@@ -140,15 +140,15 @@ const ProblemStatement = () => {
         <Content>
           <ConstraintsText>
             <Text>
-              Given the chance to work with and understand the Curio platform: which is something new for us, so it took some time to familiarize ourselves with it
+              Given the chance to work with and understand the Curio platform: which is something new for us, so it took some time to familiarize ourselves with it.
             </Text>
             <br />
             <Text>
-              Initial race idea might not be feasible due to space constraints, thus we decided to focus more on the battle idea
+              Initial race idea might not be feasible due to space constraints, thus we decided to focus more on the battle idea.
             </Text>
             <br />
             <Text>
-              Coming up with interesting activities to ensure that students with both prior or no prior experience in computing science will be engaged
+              Coming up with interesting activities to ensure that students with both prior or no prior experience in computing science will be engaged.
             </Text>
           </ConstraintsText>
           <ChallengesIcon>

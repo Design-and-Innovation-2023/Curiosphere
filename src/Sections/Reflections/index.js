@@ -136,7 +136,7 @@ const Reflections = () => {
             />
             <br />
 
-            <div style={{textAlign:'left', marginBottom:'50px', marginTop:'25px'}}>
+            <div style={{textAlign:'left', marginBottom:'50px', marginTop:'25px', paddingLeft:'20px', paddingRight:'20px'}}>
             Weekly Pitch 1 was done to showcase our work throughout Week 1 of OIP2023, where we mainly discussed what we learnt from our meetings with the project partners and the prototypes we created. The initial prototype we demonstrated was the Curio robot moving based on the answers given when answering a sample MCQ, and this was done via a web bluetooth connection to bridge the gap between the web app and Curio.
             </div>
 
@@ -151,7 +151,7 @@ const Reflections = () => {
             allowfullscreen
             />
             <br />
-            <div style={{textAlign:'left' , marginTop:'25px'}}>
+            <div style={{textAlign:'left' , marginTop:'25px', paddingLeft:'20px', paddingRight:'20px'}}>
             Weekly Pitch 2 was done to showcase our work throughout Week 2 of OIP2023, where we also mainly discussed what we learnt from our meetings with the project partners and the development of the prototypes we created. We introduced the battle concept through this pitch and demonstrated us testing the idea.
             </div>
           </SubText>

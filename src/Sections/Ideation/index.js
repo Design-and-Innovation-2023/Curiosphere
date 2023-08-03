@@ -322,11 +322,11 @@ const Ideation = () => {
     <IdeationSection id="ideation">
       <Background ref={ref}>
         <Title className="title">Ideation Process and Prototypes Built</Title>
-        <Line id="line" />
-        <Triangle id="triangle" />
+        {/* <Line id="line" />
+        <Triangle id="triangle" /> */}
       </Background>
 
-      <Content ref={addToRefs}> 
+      <Content> 
         <TextBlock
           topic="Brainstorm"
           title={<h1>18th July 2023</h1>}
@@ -414,29 +414,27 @@ const Ideation = () => {
         </div>
       </Content>
 
-      <Content>
-        <TextBlock
-          topic="Prototype"
-          title={<h1>25th July 2023</h1>}
-          subText={
-            <h3>
-              Started solidifying ideas to discuss with Lewis and then to ultimately select 1 for the final solution.
-              <br />
-              <br />
-              <div style={{ display: 'flex'}}>
-              <div style={{ textAlign: 'center', marginRight: '50px', width:'100%' }}>
-                <p style={{fontSize: '70%'}}>Race concept: Whenever student gets an answer correct, robot moves forward. Both robots will race towards the finishing line.</p>
-                <img src={RaceDiagram} alt="Race Diagram" style={{ width: '100%', marginBottom: '15px' }} />
-              </div>
-              <div style={{ textAlign: 'center', width:'100%' }}>
-                <p style={{fontSize: '70%'}}>Battle concept: Robot also moves forward when student gets correct answer, but this time the robots will be moving in opposite directions. The team which robot passes the middle line first or moves further from the starting position is the victor. </p>
-                <img src={BattleDiagram} alt="Battle Diagram" style={{ width: '100%' }} />
-              </div>
+  <Content>
+    <TextBlock
+      topic="Prototype"
+      title={<h1>25th July 2023</h1>}
+      subText={
+        <h3>
+          Started solidifying ideas to discuss with Lewis and then to ultimately select 1 for the final solution.
+          <div style={{ textAlign: 'center', width:'80%', marginLeft:'300px'}}>
+            <div style={{ textAlign: 'center', width:'80%', marginBottom: '30px' }}>
+              <p style={{fontSize: '90%'}}>Race concept: Whenever student gets an answer correct, robot moves forward. Both robots will race towards the finishing line.</p>
+              <img src={RaceDiagram} alt="Race Diagram" style={{ width: '100%' }} />
             </div>
-            </h3>
-          }
-        />
-      </Content>
+            <div style={{ textAlign: 'center', width:'80%', marginBottom: '30px' }}>
+              <p style={{fontSize: '90%'}}>Battle concept: Robot also moves forward when student gets the correct answer, but this time the robots will be moving in opposite directions. The team which robot passes the middle line first or moves further from the starting position is the victor. </p>
+              <img src={BattleDiagram} alt="Battle Diagram" style={{ width: '100%' }} />
+            </div>
+          </div>
+        </h3>
+      }
+    />
+  </Content>
 
       <Content>
         <TextBlock
@@ -481,9 +479,9 @@ const Ideation = () => {
         <TextBlock
           topic="Development"
           title={<h1>1st Aug 2023</h1>}
-          subText={
-            <h3>
-              To incorporate left and right movements of the robot, decided to implement an additional race activity where students need to navigate the race track via the Curio.
+          subText ={
+            <h3 style={{marginRight:'20px'}}>
+              To incorporate left and right movements of the robot, decided to implement a race activity where students need to navigate the race track via the Curio.
             </h3>
           }
         />
