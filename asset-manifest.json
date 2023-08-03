@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.js": "/Curiosphere/static/js/main.ed419184.js",
-    "static/css/18.01bd9fe2.chunk.css": "/Curiosphere/static/css/18.01bd9fe2.chunk.css",
-    "static/js/18.d4e7ffcc.chunk.js": "/Curiosphere/static/js/18.d4e7ffcc.chunk.js",
+    "main.js": "/Curiosphere/static/js/main.9b7a5917.js",
+    "static/css/322.d423cd93.chunk.css": "/Curiosphere/static/css/322.d423cd93.chunk.css",
+    "static/js/322.7f09319d.chunk.js": "/Curiosphere/static/js/322.7f09319d.chunk.js",
     "static/js/959.e9358480.chunk.js": "/Curiosphere/static/js/959.e9358480.chunk.js",
     "static/js/882.746e3d33.chunk.js": "/Curiosphere/static/js/882.746e3d33.chunk.js",
     "static/js/34.ed8b5e26.chunk.js": "/Curiosphere/static/js/34.ed8b5e26.chunk.js",
-    "static/js/258.25e33af5.chunk.js": "/Curiosphere/static/js/258.25e33af5.chunk.js",
+    "static/js/258.1c20d803.chunk.js": "/Curiosphere/static/js/258.1c20d803.chunk.js",
     "static/js/783.170ff11d.chunk.js": "/Curiosphere/static/js/783.170ff11d.chunk.js",
     "static/js/113.d3508c64.chunk.js": "/Curiosphere/static/js/113.d3508c64.chunk.js",
+    "static/media/usability_testing_pic.PNG": "/Curiosphere/static/media/usability_testing_pic.ad0ac91029d8e4198119.PNG",
     "static/media/BattleTest.png": "/Curiosphere/static/media/BattleTest.111e0e5b7af36f807a90.png",
     "static/media/hand.svg": "/Curiosphere/static/media/hand.e14e852afa6101e25c365fe655829695.svg",
+    "static/media/exhibitionday.jpg": "/Curiosphere/static/media/exhibitionday.6c270187be4e37a18160.jpg",
     "static/media/poster.jpg": "/Curiosphere/static/media/poster.fdb42e2be09ab79052f0.jpg",
     "static/media/race1.jpg": "/Curiosphere/static/media/race1.cfbc3639ba8b39636a8f.jpg",
     "static/media/Team9A.jpg": "/Curiosphere/static/media/Team9A.b24b09f8c4b90de569ce.jpg",
@@ -18,8 +20,10 @@
     "static/media/actual_curio.png": "/Curiosphere/static/media/actual_curio.4a7038f477b52a660d9d.png",
     "static/media/Prototype200723.png": "/Curiosphere/static/media/Prototype200723.2c6864a85955fb21ad48.png",
     "static/media/mcq2.PNG": "/Curiosphere/static/media/mcq2.b30ea3883f4434e4ebe6.PNG",
+    "static/media/daily_comm1.png": "/Curiosphere/static/media/daily_comm1.b76f78de6d8c477c0a4f.png",
     "static/media/avatar-1.jpg": "/Curiosphere/static/media/avatar-1.997fa945f79c3df41e5c.jpg",
     "static/media/bluetooth.png": "/Curiosphere/static/media/bluetooth.b705e83600418431f77d.png",
+    "static/media/daily_comm2.png": "/Curiosphere/static/media/daily_comm2.6985502874decc92148c.png",
     "static/media/avatar-4.jpg": "/Curiosphere/static/media/avatar-4.8bc41f8a581563becad3.jpg",
     "static/media/rocket image.png": "/Curiosphere/static/media/rocket image.8d228df2a54def371a01.png",
     "static/media/problemstatementimg.png": "/Curiosphere/static/media/problemstatementimg.fb4de46807be1462d163.png",
@@ -50,17 +54,17 @@
     "static/media/linkedin-brands.svg": "/Curiosphere/static/media/linkedin-brands.d7833fba7bdcf55514c4109c6c1eb7d0.svg",
     "static/media/facebook-square-brands.svg": "/Curiosphere/static/media/facebook-square-brands.38c6b4e5a1568d1aa181dd4ff5b08e05.svg",
     "static/media/arrow-up.svg": "/Curiosphere/static/media/arrow-up.65164624ca1539634ee30e63113402a1.svg",
-    "main.ed419184.js.map": "/Curiosphere/static/js/main.ed419184.js.map",
-    "18.01bd9fe2.chunk.css.map": "/Curiosphere/static/css/18.01bd9fe2.chunk.css.map",
-    "18.d4e7ffcc.chunk.js.map": "/Curiosphere/static/js/18.d4e7ffcc.chunk.js.map",
+    "main.9b7a5917.js.map": "/Curiosphere/static/js/main.9b7a5917.js.map",
+    "322.d423cd93.chunk.css.map": "/Curiosphere/static/css/322.d423cd93.chunk.css.map",
+    "322.7f09319d.chunk.js.map": "/Curiosphere/static/js/322.7f09319d.chunk.js.map",
     "959.e9358480.chunk.js.map": "/Curiosphere/static/js/959.e9358480.chunk.js.map",
     "882.746e3d33.chunk.js.map": "/Curiosphere/static/js/882.746e3d33.chunk.js.map",
     "34.ed8b5e26.chunk.js.map": "/Curiosphere/static/js/34.ed8b5e26.chunk.js.map",
-    "258.25e33af5.chunk.js.map": "/Curiosphere/static/js/258.25e33af5.chunk.js.map",
+    "258.1c20d803.chunk.js.map": "/Curiosphere/static/js/258.1c20d803.chunk.js.map",
     "783.170ff11d.chunk.js.map": "/Curiosphere/static/js/783.170ff11d.chunk.js.map",
     "113.d3508c64.chunk.js.map": "/Curiosphere/static/js/113.d3508c64.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ed419184.js"
+    "static/js/main.9b7a5917.js"
   ]
 }
