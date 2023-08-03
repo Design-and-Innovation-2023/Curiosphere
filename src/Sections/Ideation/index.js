@@ -489,6 +489,40 @@ const Ideation = () => {
         />
         <img src={race1} alt = "Race" style={{ width: '50%' }} />
       </Content>
+
+      <Content>
+        <TextBlock
+          topic="Development"
+          title={<h1>2nd Aug 2023</h1>}
+          subText={
+            <h3>
+              After crafting the poster (can be seen under "Our Solution" section), we made some development updates such as bug fixing and adding audio for a better engaging experience to finalise before exhibition day. <br /> <br />
+              We also created a 10 seconds trailer for our solution: 
+            </h3>
+          }
+        />
+       <iframe
+          width="650"
+          height="400"
+          src="https://www.youtube.com/embed/kM5VDbCsaTk"
+          title="9A 10s Trailer"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
+      </Content>
+
+      <Content>
+        <TextBlock
+          topic="Exhibition"
+          title={<h1>3rd Aug 2023</h1>}
+          subText={
+            <h3>
+              Exhibition Day
+            </h3>
+          }
+        />
+      </Content>
       
     </IdeationSection>
   );

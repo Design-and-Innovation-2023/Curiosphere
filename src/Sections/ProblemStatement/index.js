@@ -101,6 +101,7 @@ const Text = styled.h4`
   line-height: 1.5;
   color: var(--nav2);
 `;
+
 const Circle = styled.span`
   display: inline-block;
   width: 1rem;
@@ -110,6 +111,7 @@ const Circle = styled.span`
   margin-right: 0.5rem;
   margin-top: 1rem;
 `;
+
 const ProblemStatementText = styled.div`
   width: 50%;
   position: relative;

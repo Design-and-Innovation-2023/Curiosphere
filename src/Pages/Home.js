@@ -32,7 +32,7 @@ const Home = () => {
       <Achievements />
       <Constraints />
       <Improvements />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
     </Container>
   );

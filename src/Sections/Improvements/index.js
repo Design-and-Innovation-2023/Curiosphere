@@ -18,21 +18,6 @@ const ImprovementsSection = styled.section`
   justify-content: center;
   align-items: center;
 `;
-const Waves = styled.img`
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: -1rem;
-`;
-const Hand = styled.div`
-  position: absolute;
-  bottom: -1rem;
-  right: 0;
-
-  @media only Screen and (max-width: 40em) {
-    display: none;
-  }
-`;
 
 const Main = styled.div`
   margin: 0 15rem;
@@ -67,7 +52,6 @@ const CurvedLine = styled.div`
 
 const Content = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   @media only Screen and (max-width: 40em) {
@@ -80,8 +64,20 @@ const Text = styled.h4`
   line-height: 1.5;
   color: var(--nav2);
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 `;
 
+const Circle = styled.span`
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+`;
 
 const Improvements = () => {
   return (
@@ -90,6 +86,7 @@ const Improvements = () => {
         <div>
           <Title>Improvements and Future Work</Title>
         </div>
+
         <Content>
           <Text>
           Creation of maze-like system so there will be more opportunities for collaborative learning. <br /> <br />
@@ -97,6 +94,12 @@ const Improvements = () => {
           </Text>
         </Content>
       </Main>
+      
+      <div>
+          <Circle style={{ backgroundColor: "var(--purple)" }} />
+          <Circle style={{ backgroundColor: "var(--pink)" }} />
+          <Circle style={{ backgroundColor: "var(--black)" }} />
+      </div>
     </ImprovementsSection>
   );
 };
