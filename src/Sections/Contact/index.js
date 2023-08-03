@@ -3,8 +3,9 @@ import LinkedId from "../../assets/linkedin-brands.svg";
 import Twitter from "../../assets/twitter-square-brands.svg";
 import Instagram from "../../assets/instagram-square-brands.svg";
 import styled from "styled-components";
+import Team9A from "../../assets/Team9A.jpg"
 
-const ContactSection = styled.section`
+const AboutUsSection = styled.section`
   width: 100vw;
   padding: calc(2.5rem + 2.5vw) 0;
   background-color: #0a0b10;
@@ -125,7 +126,7 @@ const Row = styled.div`
   }
 `;
 
-const AboutUs = styled.p`
+const AboutUsText = styled.p`
   color: white;
   padding: 1rem; /* Adjust the padding value as needed */
   text-align: center;
@@ -134,13 +135,14 @@ const AboutUs = styled.p`
   font-size: 1.2rem;
 `;
 
-const Contact = () => {
+const AboutUs = () => {
   return (
-    <ContactSection id="contact">
+    <AboutUsSection id="us">
       <Title>About Us</Title>
-      <AboutUs>
+      <img src={Team9A} alt="Team 9A" style={{ width: '50%' }}/>
+      <AboutUsText>
       We are team 9A, a group of Year 2 students studying Computing Science at the Singapore Institute of Technology (SIT), partnered with the University of Glasgow (UoG). Our team consists of Oliver, Kai Wen, Nazir, Amiir, Abdullah and Fathima. 
-      </AboutUs>
+      </AboutUsText>
       {/* <Icons>
         <a href="https://www.facebook.com/">
           {" "}
@@ -156,8 +158,8 @@ const Contact = () => {
           <img src={Instagram} alt="Instagram" />
         </a>
       </Icons> */}
-    </ContactSection>
+    </AboutUsSection>
   );
 };
 
-export default Contact;
+export default AboutUs;

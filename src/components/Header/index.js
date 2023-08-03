@@ -253,6 +253,9 @@ const Header = () => {
         <a href="#improvements" onClick={(e) => scrollUp("improvements", e)}>
           Improvements
         </a>
+        <a href="#us" onClick={(e) => scrollUp("us", e)}>
+          About Us
+        </a>
       </MobileMenu>
     </Headers>
   );
