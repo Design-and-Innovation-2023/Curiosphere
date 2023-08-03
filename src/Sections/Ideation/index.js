@@ -38,12 +38,23 @@ const Background = styled.div`
   width: 100vw;
   height: 85vh;
   z-index: -1;
-  background-color: #eff7f9;
+  background-color: white;
   background-size: auto 100vh;
   background-repeat: no-repeat;
 `;
 
+const Circle = styled.span`
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+`;
+
 const Title = styled.h1`
+  position: fixed;
   color: black;
   display: inline-block;
   font-size: 2rem;
@@ -61,6 +72,11 @@ const Title = styled.h1`
     /* or 100px */
     border-bottom: 2px solid var(--pink);
   }
+`;
+
+const Title2 = styled.h1`
+  font-size: 2rem;
+  display: inline-block;
 `;
 
 const Line = styled.span`
@@ -323,10 +339,10 @@ const Ideation = () => {
   return (
     <IdeationSection id="ideation">
       <Background ref={ref}>
-        <Title className="title">Ideation Journey and Prototypes Built</Title>
         {/* <Line id="line" />
         <Triangle id="triangle" /> */}
       </Background>
+      <Title2>Ideation Journey and Prototypes Built</Title2>
 
       <Content> 
         <TextBlock
@@ -541,6 +557,12 @@ const Ideation = () => {
           }
         />
       </Content>
+
+      <div>
+        <Circle style={{ backgroundColor: "var(--purple)" }} />
+        <Circle style={{ backgroundColor: "var(--pink)" }} />
+        <Circle style={{ backgroundColor: "var(--black)" }} />
+      </div>
       
     </IdeationSection>
   );
