@@ -116,10 +116,14 @@ const Reflections = () => {
             During prototyping, we get to experiment with different ways to approach the challenge, and also changing our perspectives from us the developers to the end-users when testing the protoypes. This allowed us to fine-tune our designs and improve them based on external feedback and our own takeaways during the whole prototyping process. Some of us had the chance to sharpen our brainstorming skills while others learned the importance of seeing the project from the client's view to form a suitable solution. <br /> <br /> 
           </Text>
 
+          <Text style={{marginTop:'100px', marginBottom:'50px'}}>
+            Next, here are some relevant links for you to explore if you wish to find out deeper about our project.
+          </Text>
+
           <h4 style={{marginBottom:'15px', fontSize:'1.5rem'}}>Relevant Links</h4>
           <SubText>
-            Github: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github page</a> <br /> <br />
-            Team dailies: <a href="https://oip2023.discourse.group/t/team-9a-dailies">OIP 2023 Team 9A Dailies</a> (to provide pdf link) <br /> <br />
+            To view the source code for our Curio activities and also this webpage, this is the repository: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github Repository</a> <br /> <br />
+            To view the full Team 9A Dailies forum that we had throughout the duration of this project, click <a href="/pdf/Team9A_Dailies_OIP2023.pdf" download="Team9A_Dailies_OIP2023.pdf">here</a> to download a PDF file of it. <br /> <br />
             Weekly Pitch 1: <br />
             <iframe
             width="750"
@@ -130,7 +134,12 @@ const Reflections = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
             />
-            <br /> <br />
+            <br />
+
+            <div style={{textAlign:'left', marginBottom:'50px', marginTop:'25px'}}>
+            Weekly Pitch 1 was done to showcase our work throughout Week 1 of OIP2023, where we mainly discussed what we learnt from our meetings with the project partners and the prototypes we created. The initial prototype we demonstrated was the Curio robot moving based on the answers given when answering a sample MCQ, and this was done via a web bluetooth connection to bridge the gap between the web app and Curio.
+            </div>
+
             Weekly Pitch 2: <br />
             <iframe
             width="750"
@@ -141,6 +150,10 @@ const Reflections = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
             />
+            <br />
+            <div style={{textAlign:'left' , marginTop:'25px'}}>
+            Weekly Pitch 2 was done to showcase our work throughout Week 2 of OIP2023, where we also mainly discussed what we learnt from our meetings with the project partners and the development of the prototypes we created. We introduced the battle concept through this pitch and demonstrated us testing the idea.
+            </div>
           </SubText>
 
           {/* <SubText>
