@@ -162,9 +162,9 @@ const Reflections = () => {
           <img src={daily_comm1} alt="Daily Comm 1" style={{ width: '70%'}} />
           <img src={daily_comm2} alt="Daily Comm 2" style={{ width: '70%', marginTop:'40px', marginBottom:'80px' }} />
           
-          <SubText>
+          {/* <SubText>
             Next, these are results that we have gotten from the usability testing where we allowed external parties to test out our prototype:
-          </SubText>
+          </SubText> */}
           
         </Content>
       </Main>

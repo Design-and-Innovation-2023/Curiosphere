@@ -102,6 +102,8 @@ const Achievements = () => {
           We are proud to have provided a hands-on experience for students to learn more about computing science and hopefully spark an interest and ignite a passion in them. We also hope that the students can improve in their teamwork and communication skills through our activity and that they apply these skills in other aspects of their life, not only in studies. <br /> <br />
 
           In the beginning we were testing out the capabilities of the Curio platform via the <a href="https://trycurio.com">trycurio</a> website, and then we gradually moved on to modifying the source code to suit the project challenge. Thus, we are proud to have overcome the initial challenges of working with an unfamiliar platform and then developing activities using Curio which we can call our own. <br /> <br />
+
+          Also, we are glad that during the exhibition, visitors at our booth showed genuine interest in our solution and were actively participating in the activites. <br /> <br />
           
           Lastly, we hope that our solution and ideas can be expanded further to provide better and higher quality activities for students of all experience levels.
           </Text>
