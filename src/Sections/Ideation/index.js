@@ -430,8 +430,8 @@ const Ideation = () => {
           }
         />
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '45%' }}>
-          <img src={Prototype240723_1} alt="Prototype 240723_1" style={{ width: '70%',  marginBottom: '15px'  }} />
-          <img src={Prototype240723_2} alt="Prototype 240723_2" style={{ width: '70%' }} />
+          <img src={Prototype240723_1} alt="Prototype 240723_1" style={{ width: '100%',  marginBottom: '15px'  }} />
+          <img src={Prototype240723_2} alt="Prototype 240723_2" style={{ width: '100%' }} />
         </div>
       </Content>
 
@@ -474,17 +474,24 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Development"
-          title={<h1 style={{ color: "black", marginRight: '400px' }}>27th July 2023</h1>}
+          title={<h1 style={{ color: "black" }}>27th July 2023</h1>}
           subText={
             <h3 style={{ color: "black" }}>
                Continued development focusing on the battle idea. <br /> <br />
-               Came out of drafts for our poster and website.
+               Came out of drafts for our poster and website.<br /> <br />
+               <h4>Website:
+            <br />
+            <img src={websitedraft} alt="Website Draft" style={{ width: '90%' }} />
+            </h4>
             </h3>
+            
+            
           }
+          
         />
-        <div style={{display: 'flex', flexDirection:'column'}}>
-          <img src={posterdraft} alt="Poster Draft" style={{ width: '70%', marginBottom:'20px' }} />
-          <img src={websitedraft} alt="Website Draft" style={{ width: '70%' }} />
+        <div style={{flexBasis: '45%'}}>
+          <h3>Poster:</h3>
+          <img src={posterdraft} alt="Poster Draft" style={{ width: '100%' }} />
         </div>
       </Content>
 
@@ -513,9 +520,9 @@ const Ideation = () => {
             </h3>
           }
         />
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <img src={race1} alt="Race" style={{ width: '50%' }} />
-          <img src={usabilitytesting} alt="Usability Testing" style={{ width: '50%', marginTop:'20px' }} />
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '45%' }}>
+          <img src={race1} alt="Race" style={{ width: '80%' }} />
+          <img src={usabilitytesting} alt="Usability Testing" style={{ width: '80%', marginTop:'20px' }} />
         </div>
       </Content>
 
