@@ -157,7 +157,7 @@ const OurSolution = () => {
 
         <div style={{marginTop:'100px'}}>
           <Text style={{marginBottom:'20px'}}>
-            Next, this portrays what the student will see while taking the quiz:
+            Next, this portrays the student's perspective of the quiz:
           </Text>
           <iframe
           width="750"

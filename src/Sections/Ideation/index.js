@@ -17,6 +17,9 @@ import exhibitionday from "../../assets/exhibitionday.jpg"
 import usabilitytesting from "../../assets/usability_testing_pic.PNG"
 import posterdraft from "../../assets/poster_draft.jpg"
 import websitedraft from "../../assets/website_draft.jpg"
+import daily_comm1 from "../../assets/daily_comm1.png"
+import daily_comm2 from "../../assets/daily_comm2.png"
+
 
 const IdeationSection = styled.section`
   width: 100vw;
@@ -366,11 +369,18 @@ const Ideation = () => {
           title={<h1 style={{ color: "black" }}>19th July 2023</h1>}
           subText={
             <h3 style={{ color: "black" }}>
-              Face to face meeting with project partners Professor Jeremy Singer and Lewis. Understood the requirements and started forming ideas to design activities for the students. <br /> Generated multiple ideas and narrowed them down. Base idea was formed which is the concept of using Multiple Choice Questions (MCQs) in the form of a quiz to test the student’s knowledge in certain computing science topics.
+              Face to face meeting with project partners Professor Jeremy Singer and Lewis. Understood the requirements and started forming ideas to design activities for the students. <br /> Generated multiple ideas and narrowed them down. Base idea was formed which is the concept of using Multiple Choice Questions (MCQs) in the form of a quiz to test the student’s knowledge in certain computing science topics. <br /> <br />
+
+              Communicated with project partners and professors via email and below are some snippets of it. <br />
+              <img src={daily_comm1} alt = "Daily Comm 1" style={{ width: '115%', marginTop: '20px' }} /> <br />
+              <img src={daily_comm2} alt = "Daily Comm 2" style={{ width: '115%', marginTop:'20px' }} />
             </h3>
           }
         />
-        <img src={Brainstorm} alt = "Initial Idea Vomit" style={{ width: '40%' }} />
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '45%' }}>
+        <img src={Brainstorm} alt = "Initial Idea Vomit" style={{ width: '100%', marginBottom:'250px', marginLeft: '200px' }} />
+        </div>
+        
         {/* <OBJ>
           <img src={Cone} alt="Cone Object" width="400" height="400" />
         </OBJ> */}
@@ -464,7 +474,7 @@ const Ideation = () => {
           subText={
             <h3 style={{ color: "black" }}>
              Face to face meeting with Lewis to discuss the 2 ideas. Battle idea preferred due to space constraints. Took into account Lewis’s feedback to improve the design. <br /><br />
-             - Test the students based on content from multiple weeks of their lesson schedule (so the quiz will contain multiple topics instead of only 1) <br />
+             - Test the students based on content from multiple weeks of their lesson schedule (so the quiz will contain multiple topics instead of only from a single topic) <br />
              - Consider placing obstacles in the playing area to incorporate left and right movements of the robot
             </h3>
           }
@@ -567,7 +577,7 @@ const Ideation = () => {
           title={<h1 style={{ color: "black" }}>4th Aug 2023</h1>}
           subText={
             <h3 style={{marginRight:'20px', color:"black"}}>
-              The end of our OIP journey.
+              The end of our OIP journey. Thank you for following along!
             </h3>
           }
         />

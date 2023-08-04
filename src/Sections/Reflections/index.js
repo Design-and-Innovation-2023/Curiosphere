@@ -111,17 +111,17 @@ const Reflections = () => {
 
             One of the most significant lessons we learned was the importance of building a strong team foundation. We realized that establishing internal agreements or contracts to define each member's roles and responsibilities was crucial. This clarity enabled us to function cohesively and efficiently. The team contract proved to be useful as the roles and responsibilities that are listed ensures that the team is on track and we know who to consult if we need help or clarification regarding different aspects of the project such as programming of the quiz system, Curio robot, website and crafting of the poster. <br /> <br />
             
-            Furthermore, we recognized the significance of aligning our views and mental models about the project before engaging with project partners. By doing so, we were better prepared to ask pertinent questions and extract valuable insights during meetings such as what is the course content like so we can plan the computing science activities for the students accordingly, and also the difficulty of the activities that we should design.<br /> <br />
+            Furthermore, we recognized the significance of aligning our views and mental models about the project before engaging with our project partners Professor Jeremy and Lewis. By doing so, we were better prepared to ask pertinent questions and extract valuable insights during meetings such as what is the course content like so we can plan the computing science activities for the students accordingly, and also the difficulty of the activities that we should design.<br /> <br />
 
             The prototyping phase was particularly eye-opening. Experimenting with various approaches to tackle the challenge allowed us to refine our designs continually. The team initially came out of a skeleton prototype of a quiz consisting of MCQs, and then moved on to connecting to the Curio robot via web bluetooth and learning how to program it. Once we have figured out this step, we then started creating the final design following our initial protoype, thus there was continuous refinement. <br /> <br />
             
-            In addition, we discovered the value of adopting the perspective of end-users during the testing phase. This shift in mindset enabled us to empathize with their needs and expectations which is to make the activities fun, leading to more user-centric solutions which is the creation of a quiz together with a race concept to keep the students engaged. Embracing external feedback such as our peers mentioning that the delay after they get an quiz question wrong is too long, and reflecting on our own experiences throughout the prototyping process proved instrumental in improving the quality of our designs.<br /> <br />
+            In addition, we discovered the value of adopting the perspective of end-users during the testing phase. This shift in mindset enabled us to empathize with their needs and expectations which is to make the activities fun, leading to more user-centric solutions which is the creation of a quiz together with a race concept to keep the students engaged. Embracing external feedback such as our peers mentioning that the delay after they get a quiz question wrong is too long, and reflecting on our own experiences throughout the prototyping process proved instrumental in improving the quality of our designs.<br /> <br />
 
             As a team, we experienced personal growth in different aspects. We honed our brainstorming skills, generating innovative ideas and possibilities, while learning the importance of empathizing with the client's perspective to devise solutions that truly addressed their unique requirements.<br /> <br />
 
             Throughout our design journey, we encountered a fascinating concept called Integrative Thinking, which proved to be a valuable tool in developing our solution. Integrative thinking encourages us to combine diverse elements of our ideas in order to create a more comprehensive and innovative solution. In particular, we embraced the "double down" approach, which is about incorporating the strengths of two different models by integrating a key element from one model into another and subsequently applying this hybridized model to address the problem at hand. This concept came to the forefront when we decided to merge the concept of a maze with a racing track.<br /> <br />
 
-            Initially, our race idea centred on the Curio bot travelling in a straight path. However, thanks to Lewis's (one of our project partners) insightful advice, we realized that we could better utilize the capabilities of the Curio bots, specifically their ability to turn both right and left relatively accurately. This realization inspired us to integrate this aspect into our racing concept.<br /> <br />
+            Initially, our race idea centred on the Curio bot travelling in a straight path. However, thanks to Lewis's insightful advice, we realized that we could better utilize the capabilities of the Curio bots, specifically their ability to turn both right and left relatively accurately. This realization inspired us to integrate this aspect into our racing concept.<br /> <br />
 
             By incorporating the Curio bots' turning abilities into the racing track, we transformed the experience into something dynamic and engaging. The track featured sections with sharp turns, where the bots could showcase their agility and decision-making skills, navigating efficiently through the challenging course. This addition not only maximized the potential of the Curio bots' features but also provided a refreshing twist to the conventional racing experience.<br /> <br />
 
@@ -139,7 +139,7 @@ const Reflections = () => {
           <h4 style={{ marginBottom: '15px', fontSize: '1.5rem' }}>Relevant Links</h4>
           <SubText style={{ marginBottom: '20px' }}>
             To view the source code for our Curio activities and also this webpage, this is the repository: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github Repository</a> <br /> <br />
-            To view the full Team 9A Dailies forum that we had throughout the duration of this project, click <a href="/pdf/Team9A_Dailies_OIP2023.pdf" download="Team9A_Dailies_OIP2023.pdf">here</a> to download a PDF file of it. <br /> <br />
+            To view the full ideation process and journey, you can do so via the Team 9A Dailies forum that we used throughout the duration of this project. Click <a href="/pdf/Team9A_Dailies_OIP2023.pdf" download="Team9A_Dailies_OIP2023.pdf">here</a> to download a PDF file of it. <br /> <br />
             Weekly Pitch 1: <br />
             <iframe
               width="750"
@@ -171,17 +171,6 @@ const Reflections = () => {
               Weekly Pitch 2 was done to showcase our work throughout Week 2 of OIP2023, where we also mainly discussed what we learnt from our meetings with the project partners and the development of the prototypes we created. We introduced the battle concept through this pitch and demonstrated us testing the idea.
             </div>
           </SubText>
-
-          <SubText style={{ marginTop: '50px' }}>
-            Next, here are some snippets of the communication that we had with our project partners (Professor Jeremy and Lewis) via email:
-          </SubText>
-          <img src={daily_comm1} alt="Daily Comm 1" style={{ width: '70%' }} />
-          <img src={daily_comm2} alt="Daily Comm 2" style={{ width: '70%', marginTop: '40px', marginBottom: '80px' }} />
-
-          {/* <SubText>
-            Next, these are results that we have gotten from the usability testing where we allowed external parties to test out our prototype:
-          </SubText> */}
-
         </Content>
       </Main>
       <div>
