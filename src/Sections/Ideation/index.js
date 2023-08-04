@@ -407,7 +407,7 @@ const Ideation = () => {
           topic="Prototype"
           title={<h1 style={{ color: "black" }}>21st July 2023</h1>}
           subText={
-            <h3 style={{ color: "black" }}>
+            <h3 style={{ color: "black", marginRight:'20px' }}>
                Started learning how to program the Curio robot and managed to use code to control the robot’s movements. <br /> <br />
                Developed ideas further by coming up with a race concept for the students to take part in with the Curio robot. 
             </h3>
