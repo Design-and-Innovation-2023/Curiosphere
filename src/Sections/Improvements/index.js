@@ -101,8 +101,8 @@ const Improvements = () => {
             <img src={improvement} alt="" />
           </ImprovementsIcon>
           <Text>
-          Creation of maze-like system so there will be more opportunities for collaborative learning. <br /> <br />
-          Implementation of communication between different robots, so more functionalities can be introduced into the game such as attacking and defending and this will affect the health points of the robots.
+          Establishing a feature that streamlines the process for professors to upload their customized set of questions for the quizzes.  <br /> <br />
+          Implementation of communication between robots, so more types of games and mechanics can be incorporated such as those that involves attacking and defending, which will affect the health points of the robots. <br /> <br />
           </Text>
         </Content>
       </Main>
