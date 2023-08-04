@@ -146,7 +146,7 @@ const OurSolution = () => {
               Students navigate a race with Curio, whenever they get a question correct they are presented with options to advance or turn the robot.
             </Text>
           </VideoWrapper>
-      
+
         <div style={{marginTop:'100px'}}>
         <img src={mcq} alt="" style={{width:'400px'}} />
         <img src={mcq2} alt="" style={{width:'400px'}} />
