@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Curiosphere/static/js/main.dc339166.js",
+    "main.js": "/Curiosphere/static/js/main.60a1e875.js",
     "static/css/260.42ac6418.chunk.css": "/Curiosphere/static/css/260.42ac6418.chunk.css",
-    "static/js/260.9fe30754.chunk.js": "/Curiosphere/static/js/260.9fe30754.chunk.js",
+    "static/js/260.a32ee41a.chunk.js": "/Curiosphere/static/js/260.a32ee41a.chunk.js",
     "static/js/959.e3f3e574.chunk.js": "/Curiosphere/static/js/959.e3f3e574.chunk.js",
     "static/js/882.746e3d33.chunk.js": "/Curiosphere/static/js/882.746e3d33.chunk.js",
     "static/js/34.ed8b5e26.chunk.js": "/Curiosphere/static/js/34.ed8b5e26.chunk.js",
@@ -17,10 +17,10 @@
     "static/media/hand.svg": "/Curiosphere/static/media/hand.e14e852afa6101e25c365fe655829695.svg",
     "static/media/exhibitionday.jpg": "/Curiosphere/static/media/exhibitionday.6c270187be4e37a18160.jpg",
     "static/media/poster.jpg": "/Curiosphere/static/media/poster.fdb42e2be09ab79052f0.jpg",
-    "static/media/race1.jpg": "/Curiosphere/static/media/race1.cfbc3639ba8b39636a8f.jpg",
     "static/media/Team9A.jpg": "/Curiosphere/static/media/Team9A.b24b09f8c4b90de569ce.jpg",
     "static/media/QuestionsList.PNG": "/Curiosphere/static/media/QuestionsList.ac2e3370f2b306d8b7c4.PNG",
     "static/media/actual_curio.png": "/Curiosphere/static/media/actual_curio.4a7038f477b52a660d9d.png",
+    "static/media/race1.jpg": "/Curiosphere/static/media/race1.b2313cf0b493c2effa76.jpg",
     "static/media/Prototype200723.png": "/Curiosphere/static/media/Prototype200723.2c6864a85955fb21ad48.png",
     "static/media/mcq2.PNG": "/Curiosphere/static/media/mcq2.b30ea3883f4434e4ebe6.PNG",
     "static/media/daily_comm1.png": "/Curiosphere/static/media/daily_comm1.b76f78de6d8c477c0a4f.png",
@@ -57,9 +57,9 @@
     "static/media/linkedin-brands.svg": "/Curiosphere/static/media/linkedin-brands.d7833fba7bdcf55514c4109c6c1eb7d0.svg",
     "static/media/facebook-square-brands.svg": "/Curiosphere/static/media/facebook-square-brands.38c6b4e5a1568d1aa181dd4ff5b08e05.svg",
     "static/media/arrow-up.svg": "/Curiosphere/static/media/arrow-up.65164624ca1539634ee30e63113402a1.svg",
-    "main.dc339166.js.map": "/Curiosphere/static/js/main.dc339166.js.map",
+    "main.60a1e875.js.map": "/Curiosphere/static/js/main.60a1e875.js.map",
     "260.42ac6418.chunk.css.map": "/Curiosphere/static/css/260.42ac6418.chunk.css.map",
-    "260.9fe30754.chunk.js.map": "/Curiosphere/static/js/260.9fe30754.chunk.js.map",
+    "260.a32ee41a.chunk.js.map": "/Curiosphere/static/js/260.a32ee41a.chunk.js.map",
     "959.e3f3e574.chunk.js.map": "/Curiosphere/static/js/959.e3f3e574.chunk.js.map",
     "882.746e3d33.chunk.js.map": "/Curiosphere/static/js/882.746e3d33.chunk.js.map",
     "34.ed8b5e26.chunk.js.map": "/Curiosphere/static/js/34.ed8b5e26.chunk.js.map",
@@ -68,6 +68,6 @@
     "113.d3508c64.chunk.js.map": "/Curiosphere/static/js/113.d3508c64.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.dc339166.js"
+    "static/js/main.60a1e875.js"
   ]
 }
