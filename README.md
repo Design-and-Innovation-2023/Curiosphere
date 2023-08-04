@@ -19,6 +19,7 @@ npm install  <br />
 npm start
 
 ## Curio
+The source code for the Curio robot activity is also included in this repository.
 1. For connection to Curio robot via web bluetooth, cd into curio/src
 2. npm install
 3. npm start
