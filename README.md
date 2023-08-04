@@ -34,7 +34,7 @@ The source code for the Curio robot activity is also included in this repository
 | Nazir Ahmed | 2717889S@student.gla.ac.uk |
 | Oliver Choy | 2717848C@student.gla.ac.uk |
 
-## Relevant links/sources for icons used etc:
+## Acknowledgements
 https://trycurio.com/
 https://github.com/claretb/curio-joystick
 https://github.com/jeremysinger/glasgow-summer-school
