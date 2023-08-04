@@ -59,7 +59,7 @@ const AchievementIcon = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 100%;
+  width: 150%;
   padding-bottom: 5rem;
   margin-right: 100px;
   margin-bottom: 50px;

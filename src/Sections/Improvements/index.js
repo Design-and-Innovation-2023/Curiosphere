@@ -78,7 +78,8 @@ const ImprovementsIcon = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 70%;
+  width: 100%;
+  margin-right: 40px;
   padding-bottom: 5rem;
   animation: ${move} 2.5s ease infinite;
   @media only Screen and (max-width: 40em) {

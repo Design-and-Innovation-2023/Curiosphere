@@ -110,7 +110,7 @@ const MobileMenu = styled.nav`
   padding: 2rem 0;
   overflow-x: hidden;
   position: absolute;
-  width: 12rem;
+  width: 10rem;
   top: 50%;
   right: 0;
   opacity: ${(props) => (props.clicked ? "1" : 0)};
@@ -123,7 +123,7 @@ const MobileMenu = styled.nav`
   a {
     color: var(--white);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 1.5rem;
     cursor: pointer;
   }
