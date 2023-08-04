@@ -107,65 +107,69 @@ const Reflections = () => {
         </div>
         <Content>
           <Text>
-            Throughout the 3 weeks spent in University of Glasgow as part of the OIP, we have gotten the chance to meet and work with many different people in a new environment. <br /> <br />
+            Over the past three weeks at the University of Glasgow, our experience as part of the OIP has been both enlightening and transformative. Working in a new environment and collaborating with diverse individuals has enriched our understanding of design thinking and its practical applications. Our goal was not only to create a solution but to ensure that it would have a lasting impact, benefitting other groups of designers even after our departure from Glasgow. <br /> <br />
 
-            We've learned a lot of lessons along the way. We realised that the initial step was to build a strong foundation as a team, thus we needed internal agreements or contracts which define the roles that each member should play. Before meeting the project partners we had to align our views and mental models regarding the project so that we can ask useful questions and gain valuable insights during meetings. <br /> <br />
-            
-            During prototyping, we get to experiment with different ways to approach the challenge, and also changing our perspectives from us the developers to the end-users when testing the protoypes. This allowed us to fine-tune our designs and improve them based on external feedback and our own takeaways during the whole prototyping process. We also learned how to improve based on constructive feedback given by our project partners, fellow peers and more. Some of us had the chance to sharpen our brainstorming skills while others learned the significance of seeing the project from different points of view such the client and end-users to form a suitable solution. We've learned the importance of teamwork and will apply it to other aspects of our lives.<br /> <br /> 
+            One of the most significant lessons we learned was the importance of building a strong team foundation. We realized that establishing internal agreements or contracts to define each member's roles and responsibilities was crucial. This clarity enabled us to function cohesively and efficiently. Furthermore, we recognized the significance of aligning our views and mental models about the project before engaging with project partners. By doing so, we were better prepared to ask pertinent questions and extract valuable insights during meetings. <br /> <br />
 
-            Lastly, we are glad to be part of the process of creating a solution which we hope will be passed on to other groups of designers and expand into something bigger, even after we leave Glasgow.
+            The prototyping phase was particularly eye-opening. Experimenting with various approaches to tackle the challenge allowed us to refine our designs continually. In addition, we discovered the value of adopting the perspective of end-users during the testing phase. This shift in mindset enabled us to empathize with their needs and expectations, leading to more user-centric solutions. Embracing external feedback and reflecting on our own experiences throughout the prototyping process proved instrumental in improving the quality of our designs.<br /> <br />
+
+            As a team, we experienced personal growth in different aspects. We honed our brainstorming skills, generating innovative ideas and possibilities, while learning the importance of empathizing with the client's perspective to devise solutions that truly addressed their unique requirements.<br /> <br />
+
+            Looking back, our journey in this design-thinking course has been a rewarding one. The knowledge and skills we acquired are not confined to this particular project; they will undoubtedly shape our approach to future challenges. The emphasis on collaboration, empathy, and iterative problem-solving has left a lasting impression on us as designers.<br /> <br />
+
+            Moving forward, we aspire to continue practising design thinking and incorporating its principles into our work. We are grateful for the opportunity to participate in this course and believe that the insights gained will prove invaluable in our academic pursuits and professional endeavours. With enthusiasm and determination, we look forward to sharing our newfound knowledge with others and making a positive impact in the world of design.
           </Text>
 
-          <Text style={{marginTop:'100px', marginBottom:'50px'}}>
+          <Text style={{ marginTop: '100px', marginBottom: '50px' }}>
             Next, here are some relevant links for you to explore if you wish to find out deeper about our project.
           </Text>
 
-          <h4 style={{marginBottom:'15px', fontSize:'1.5rem'}}>Relevant Links</h4>
-          <SubText style={{marginBottom:'20px'}}>
+          <h4 style={{ marginBottom: '15px', fontSize: '1.5rem' }}>Relevant Links</h4>
+          <SubText style={{ marginBottom: '20px' }}>
             To view the source code for our Curio activities and also this webpage, this is the repository: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github Repository</a> <br /> <br />
             To view the full Team 9A Dailies forum that we had throughout the duration of this project, click <a href="/pdf/Team9A_Dailies_OIP2023.pdf" download="Team9A_Dailies_OIP2023.pdf">here</a> to download a PDF file of it. <br /> <br />
             Weekly Pitch 1: <br />
             <iframe
-            width="750"
-            height="400"
-            src="https://www.youtube.com/embed/3Xn6O9Hdr8k"
-            title="Weekly Pitch 1"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+              width="750"
+              height="400"
+              src="https://www.youtube.com/embed/3Xn6O9Hdr8k"
+              title="Weekly Pitch 1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
             />
             <br />
 
-            <div style={{textAlign:'left', marginBottom:'50px', marginTop:'25px', paddingLeft:'20px', paddingRight:'20px'}}>
-            Weekly Pitch 1 was done to showcase our work throughout Week 1 of OIP2023, where we mainly discussed what we learnt from our meetings with the project partners and the prototypes we created. The initial prototype we demonstrated was the Curio robot moving based on the answers given when answering a sample MCQ, and this was done via a web bluetooth connection to bridge the gap between the web app and Curio.
+            <div style={{ textAlign: 'left', marginBottom: '50px', marginTop: '25px', paddingLeft: '20px', paddingRight: '20px' }}>
+              Weekly Pitch 1 was done to showcase our work throughout Week 1 of OIP2023, where we mainly discussed what we learnt from our meetings with the project partners and the prototypes we created. The initial prototype we demonstrated was the Curio robot moving based on the answers given when answering a sample MCQ, and this was done via a web bluetooth connection to bridge the gap between the web app and Curio.
             </div>
 
             Weekly Pitch 2: <br />
             <iframe
-            width="750"
-            height="400"
-            src="https://www.youtube.com/embed/6u5A0mVla4s"
-            title="Weekly Pitch 2"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+              width="750"
+              height="400"
+              src="https://www.youtube.com/embed/6u5A0mVla4s"
+              title="Weekly Pitch 2"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
             />
             <br />
-            <div style={{textAlign:'left' , marginTop:'25px', paddingLeft:'20px', paddingRight:'20px'}}>
-            Weekly Pitch 2 was done to showcase our work throughout Week 2 of OIP2023, where we also mainly discussed what we learnt from our meetings with the project partners and the development of the prototypes we created. We introduced the battle concept through this pitch and demonstrated us testing the idea.
+            <div style={{ textAlign: 'left', marginTop: '25px', paddingLeft: '20px', paddingRight: '20px' }}>
+              Weekly Pitch 2 was done to showcase our work throughout Week 2 of OIP2023, where we also mainly discussed what we learnt from our meetings with the project partners and the development of the prototypes we created. We introduced the battle concept through this pitch and demonstrated us testing the idea.
             </div>
           </SubText>
 
-          <SubText style={{marginTop:'50px'}}>
+          <SubText style={{ marginTop: '50px' }}>
             Next, here are some snippets of the communication that we had with our project partners (Professor Jeremy and Lewis) via email:
           </SubText>
-          <img src={daily_comm1} alt="Daily Comm 1" style={{ width: '70%'}} />
-          <img src={daily_comm2} alt="Daily Comm 2" style={{ width: '70%', marginTop:'40px', marginBottom:'80px' }} />
-          
+          <img src={daily_comm1} alt="Daily Comm 1" style={{ width: '70%' }} />
+          <img src={daily_comm2} alt="Daily Comm 2" style={{ width: '70%', marginTop: '40px', marginBottom: '80px' }} />
+
           {/* <SubText>
             Next, these are results that we have gotten from the usability testing where we allowed external parties to test out our prototype:
           </SubText> */}
-          
+
         </Content>
       </Main>
       <div>
