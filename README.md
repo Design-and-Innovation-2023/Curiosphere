@@ -13,8 +13,8 @@ A quiz system using Curio robots allowing students to engage in an interactive l
 
 To view the website hosted on Github: https://design-and-innovation-2023.github.io/Curiosphere/
 
-To view website from source code, in project directory run:
-npm install
+To view website from source code, in project directory run:  <br />
+npm install  <br />
 npm start
 
 ## Curio
