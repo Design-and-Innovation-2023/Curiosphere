@@ -74,14 +74,14 @@ const Content = styled.div`
 `;
 
 const Text = styled.h4`
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   color: var(--nav2);
   margin-bottom: 10px;
 `;
 
 const SubText = styled.h5`
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--nav2);
   margin-bottom: 10px;
   justify-content: center;

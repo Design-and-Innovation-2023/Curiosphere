@@ -132,7 +132,7 @@ const AboutUsText = styled.p`
   text-align: center;
   margin-left: 10rem;
   margin-right: 10rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 `;
 
 const AboutUs = () => {

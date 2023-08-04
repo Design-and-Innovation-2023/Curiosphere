@@ -12,6 +12,7 @@ const Headers = styled.header`
   background-color: var(--nav);
   color: var(--white);
   position: relative;
+  height: 4.5rem;
   z-index: 500;
   @media only Screen and (max-width: 64em) {
     padding: 0.5rem 3rem;

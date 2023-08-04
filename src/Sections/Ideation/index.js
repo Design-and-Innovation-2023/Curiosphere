@@ -15,6 +15,8 @@ import race1 from "../../assets/race1.jpg"
 import TextBlock from "../../components/TextBlock";
 import exhibitionday from "../../assets/exhibitionday.jpg"
 import usabilitytesting from "../../assets/usability_testing_pic.PNG"
+import posterdraft from "../../assets/poster_draft.jpg"
+import websitedraft from "../../assets/website_draft.jpg"
 
 const IdeationSection = styled.section`
   width: 100vw;
@@ -473,13 +475,18 @@ const Ideation = () => {
       <Content>
         <TextBlock
           topic="Development"
-          title={<h1 style={{ color: "black" }}>27th July 2023</h1>}
+          title={<h1 style={{ color: "black", marginRight: '400px' }}>27th July 2023</h1>}
           subText={
             <h3 style={{ color: "black" }}>
-               Continued development focusing on the battle idea.
+               Continued development focusing on the battle idea. <br /> <br />
+               Came out of drafts for our poster and website.
             </h3>
           }
         />
+        <div style={{display: 'flex', flexDirection:'column'}}>
+          <img src={posterdraft} alt="Poster Draft" style={{ width: '70%', marginBottom:'20px' }} />
+          <img src={websitedraft} alt="Website Draft" style={{ width: '70%' }} />
+        </div>
       </Content>
 
       <Content>

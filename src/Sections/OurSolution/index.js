@@ -63,7 +63,7 @@ const Content = styled.div`
 `;
 
 const Text = styled.h4`
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: var(--nav2);
   display: flex;
@@ -146,7 +146,7 @@ const OurSolution = () => {
               Students navigate a race with Curio, whenever they get a question correct they are presented with options to advance or turn the robot.
             </Text>
           </VideoWrapper>
-        </Content>
+      
         <div style={{marginTop:'100px'}}>
         <img src={mcq} alt="" style={{width:'500px'}} />
         <img src={mcq2} alt="" style={{width:'500px'}} />
@@ -156,12 +156,27 @@ const OurSolution = () => {
         </Text>
 
         <div style={{marginTop:'100px'}}>
+          <Text style={{marginBottom:'20px'}}>
+            Next, this portrays what the student will see while taking the quiz:
+          </Text>
+          <iframe
+          width="750"
+          height="400"
+          src="https://www.youtube.com/embed/kDez0sAR0Y0"
+          title="9A Student Perspective"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
+        </div>
+
+        <div style={{marginTop:'100px'}}>
         <h2>
           Team 9A Poster
         </h2>
         <img src={poster} alt="" style={{width:'700px'}} />
         </div>
-
+        </Content>
         <div>
           <Circle style={{ backgroundColor: "var(--purple)" }} />
           <Circle style={{ backgroundColor: "var(--pink)" }} />
