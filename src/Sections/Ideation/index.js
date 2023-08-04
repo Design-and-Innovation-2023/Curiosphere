@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import QuestionsList from "../../assets/QuestionsList.PNG"
+import Brainstorm from "../../assets/Brainstorming.png"
 import Prototype200723 from "../../assets/Prototype200723.png"
 import Prototype240723_1 from "../../assets/Prototype240723_1.png"
 import Prototype240723_2 from "../../assets/Prototype240723_2.png"
@@ -363,10 +364,11 @@ const Ideation = () => {
           title={<h1 style={{ color: "black" }}>19th July 2023</h1>}
           subText={
             <h3 style={{ color: "black" }}>
-              Face to face meeting with project partners Professor Jeremy Singer and Lewis. Understood the requirements and started forming ideas to design activities for the students. <br /> Base idea was formed which is the concept of using Multiple Choice Questions (MCQs) to test the student’s knowledge in certain computing science topics.
+              Face to face meeting with project partners Professor Jeremy Singer and Lewis. Understood the requirements and started forming ideas to design activities for the students. <br /> Generated multiple ideas and narrowed them down. Base idea was formed which is the concept of using Multiple Choice Questions (MCQs) in the form of a quiz to test the student’s knowledge in certain computing science topics.
             </h3>
           }
         />
+        <img src={Brainstorm} alt = "Initial Idea Vomit" style={{ width: '40%' }} />
         {/* <OBJ>
           <img src={Cone} alt="Cone Object" width="400" height="400" />
         </OBJ> */}
@@ -426,7 +428,7 @@ const Ideation = () => {
             </h3>
           }
         />
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '45%' }}>
           <img src={Prototype240723_1} alt="Prototype 240723_1" style={{ width: '70%',  marginBottom: '15px'  }} />
           <img src={Prototype240723_2} alt="Prototype 240723_2" style={{ width: '70%' }} />
         </div>
