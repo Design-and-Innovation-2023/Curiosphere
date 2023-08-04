@@ -423,7 +423,6 @@ const Ideation = () => {
               Developed more prototypes (a landing page for students to log in, and a page to select which quiz to take part in)
 
               Came out of ways to encourage teamwork between the students. Thus, we came up with a maze idea. Multiple students can be involved in solving the questions and figuring out which path the robot should take through the maze, allowing for more collaborative learning.
-              (Can insert screenshot of sample maze)
               <br />
               <br />
               Discussions can be held after the maze is complete for reviewing purposes and ensuring that the students understand the concepts being taught.
@@ -465,8 +464,8 @@ const Ideation = () => {
           subText={
             <h3 style={{ color: "black" }}>
              Face to face meeting with Lewis to discuss the 2 ideas. Battle idea preferred due to space constraints. Took into account Lewis’s feedback to improve the design. <br /><br />
-             - test the students based on content from multiple weeks of their lesson schedule (so the quiz will contain multiple topics instead of only 1) <br />
-             - consider placing obstacles in the playing area to incorporate left and right movements of the robot
+             - Test the students based on content from multiple weeks of their lesson schedule (so the quiz will contain multiple topics instead of only 1) <br />
+             - Consider placing obstacles in the playing area to incorporate left and right movements of the robot
             </h3>
           }
         />
