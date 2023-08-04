@@ -148,8 +148,8 @@ const OurSolution = () => {
           </VideoWrapper>
       
         <div style={{marginTop:'100px'}}>
-        <img src={mcq} alt="" style={{width:'500px'}} />
-        <img src={mcq2} alt="" style={{width:'500px'}} />
+        <img src={mcq} alt="" style={{width:'400px'}} />
+        <img src={mcq2} alt="" style={{width:'400px'}} />
         </div>
         <Text>
         An example of our web application displaying a Multiple Choice Question (MCQ) is shown above, and when students get the correct answer, they will be given movement options.
@@ -171,10 +171,10 @@ const OurSolution = () => {
         </div>
 
         <div style={{marginTop:'100px'}}>
-        <h2>
+        <h2 style={{fontSize:'20px'}}>
           Team 9A Poster
         </h2>
-        <img src={poster} alt="" style={{width:'700px'}} />
+        <img src={poster} alt="" style={{width:'550px'}} />
         </div>
         </Content>
         <div>

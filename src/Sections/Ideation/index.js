@@ -92,6 +92,13 @@ const Line = styled.span`
   border-radius: 20px 20px 0 0;
 `;
 
+const Text = styled.h4`
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: black;
+  margin-bottom: 10px;
+`;
+
 const Triangle = styled.span`
   width: 0;
   height: 0;
@@ -489,9 +496,10 @@ const Ideation = () => {
             <h3 style={{ color: "black" }}>
                Continued development focusing on the battle idea. <br /> <br />
                Came out of drafts for our poster and website.<br /> <br />
-               <h4>Website:
+               <h4>Website: <br />
+               <Text style={{marginRight: '20px'}}>We planned out the different scrollable sections to include in our website before programming. The main components were the main page with Curio, demo videos, our whole process and ideation journey, achievements, improvements, about us and contact us.</Text>
             <br />
-            <img src={websitedraft} alt="Website Draft" style={{ width: '90%' }} />
+            <img src={websitedraft} alt="Website Draft" style={{ width: '95%', marginTop:'-30px' }} />
             </h4>
             </h3>
             
@@ -499,9 +507,13 @@ const Ideation = () => {
           }
           
         />
-        <div style={{flexBasis: '45%'}}>
-          <h3>Poster:</h3>
-          <img src={posterdraft} alt="Poster Draft" style={{ width: '100%' }} />
+        <div style={{flexBasis: '45%', marginTop:'560px'}}>
+          <h4>Poster: <br />
+          <Text style={{marginRight: '20px'}}>The initial plan for the poster is to include the problem statement, methodology, design process and future works. The methodology will include a high level overview of the process of requirement gathering, ideation, prototyping and then evaluation. The design process will then include the progress that we have made throughout the project documented by pictures and videos of prototypes along the way etc. At the top, from left to right will be our team name, project name and the curio logo. <br /> <br />
+
+          After much discussion, the final design of our poster can be seen in the "Our Solution" section. </Text>
+          <img src={posterdraft} alt="Poster Draft" style={{ width: '110%' }} />
+          </h4> 
         </div>
       </Content>
 

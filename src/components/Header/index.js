@@ -124,7 +124,7 @@ const MobileMenu = styled.nav`
     color: var(--white);
     font-weight: 600;
     font-size: 1rem;
-    margin: 1.5rem;
+    margin: 1rem;
     cursor: pointer;
   }
 `;
@@ -236,6 +236,9 @@ const Header = () => {
       <a href="#home" onClick={(e) => scrollUp("home", e)}>
           Home
         </a>
+      <a href="#solution" onClick={(e) => scrollUp("solution", e)}>
+        Solution
+      </a>
         <a href="#problem" onClick={(e) => scrollUp("problem", e)}>
           Challenge
         </a>

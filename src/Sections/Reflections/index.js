@@ -139,7 +139,7 @@ const Reflections = () => {
           <h4 style={{ marginBottom: '15px', fontSize: '1.5rem' }}>Relevant Links</h4>
           <SubText style={{ marginBottom: '20px' }}>
             To view the source code for our Curio activities and also this webpage, this is the repository: <a href="https://github.com/Design-and-Innovation-2023/Team9A"> Github Repository</a> <br /> <br />
-            To view the full ideation process and journey, you can do so via the Team 9A Dailies forum that we used throughout the duration of this project. Click <a href="./pdf/Team9A_Dailies_OIP2023.pdf" download="Team9A_Dailies_OIP2023.pdf">here</a> to download a PDF file of it. <br /> <br />
+            To view the full ideation process and journey, you can do so via the Team 9A Dailies forum that we used throughout the duration of this project. Click <a href="/Curiosphere/blob/gh-pages/pdf/Team9A_Dailies_OIP2023.pdf" download="Team9A_Dailies_OIP2023.pdf">here</a> to download a PDF file of it. <br /> <br />
             Weekly Pitch 1: <br />
             <iframe
               width="750"
